@@ -3,11 +3,19 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header/Header';
 import Footer_main from './Components/Footer_main/Footer_main';
+import AcceptCrypto from './Components/AcceptCrypto/AcceptCrypto';
+import Stasha_Academy from './Components/Stasha_Academy/Stasha_Academy';
+import Stasha_Dictionary from './Components/Stasha_Dictionary/Stasha_Dictionary';
+import Opportunities from './Components/Opportunities/Opportunities';
 
 function App() {
   return (
     <div className="App">
-    <Footer_main/>
+    {/* <AcceptCrypto />  */}
+    {/* <Stasha_Academy /> */}
+    {/* <Stasha_Dictionary /> */}
+    <Opportunities /> 
+    {/* <Footer_main/> */}
     </div>
   );
 }
