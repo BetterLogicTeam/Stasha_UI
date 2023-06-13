@@ -1,0 +1,70 @@
+.stasg_coin_bg{
+
+    background-color: #000000;
+    padding: 30px 20px;
+}
+.stash_hh5{
+
+    font-family: 'Fredoka';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 54px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.coin_pahr{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #9C9C9C;
+}
+
+.boxxxxxxxs{
+    
+    width: 279px;
+height: 153px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+background: rgba(19, 19, 19, 0.5);
+border-radius: 20px;
+}
+.boxxxxxxxs:hover{
+    border: 2px solid #00ACFF;
+
+}
+
+.current{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.dollar{
+
+    font-family: 'Fredoka';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 54px;
+text-align: center;
+
+background: linear-gradient(180deg, #00ACFF 0%, #5061FF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
