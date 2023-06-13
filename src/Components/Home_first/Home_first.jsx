@@ -5,6 +5,7 @@ import world from "../Assets/world.svg"
 export default function Home_first() {
   return (
     <div className='home_first_bg'>
+    <div className='home_lwer_clr'></div>
     <div className="container-fluid">
         <div className="row align-items-center">
             <div className="col-md-7">

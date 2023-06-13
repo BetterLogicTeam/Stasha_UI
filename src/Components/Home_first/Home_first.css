@@ -1,6 +1,6 @@
 .home_first_bg {
   background-color: #000000;
-  padding: 30px 20px !important;
+  padding: 10px 20px  30px 20px!important;
   position: relative;
 }
 
@@ -60,6 +60,17 @@ width: 278px;
 height: 26px;
 }
 
+
+.home_lwer_clr{
+  
+background: rgba(0, 172, 255, 0.9);
+filter: blur(100px);
+position: absolute;
+width: 134px;
+height: 134px;
+bottom: 0px ;
+right: 10px !important;
+}
 
 
 

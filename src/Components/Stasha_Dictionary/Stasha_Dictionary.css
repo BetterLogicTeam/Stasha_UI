@@ -1,0 +1,40 @@
+.dictionay_bg{
+    background-color: #000C11;
+}
+.dictionary_h5{
+
+    font-family: 'Fredoka';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 54px;
+
+color: #FFFFFF;
+}
+.dictionary_pa{
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #9C9C9C;
+
+}
+.diction_learn{
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-decoration: none !important;
+color: rgba(0, 172, 255, 0.9);
+
+}
+
+
+.main_car{
+    padding: 20px 30px !important;
+}

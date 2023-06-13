@@ -59,3 +59,10 @@
   border: 1px solid rgba(0, 172, 255, 0.9);
   border-radius: 12px;
 }
+
+
+@media only screen and (max-width:600px){
+  .building_block_heading > h1{
+    font-size: 39px !important;
+  }
+}

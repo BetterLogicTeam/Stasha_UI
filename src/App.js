@@ -9,14 +9,22 @@ import FAQ from './Components/FAQ/FAQ';
 import JoinOurCommunity from './Components/JoinOurCommunity/JoinOurCommunity';
 import BuildingBlockchai from './Components/BuildingBlockchai/BuildingBlockchai';
 import Home_first from './Components/Home_first/Home_first';
+import AcceptCrypto from './Components/AcceptCrypto/AcceptCrypto';
+import Opportunities from './Components/Opportunities/Opportunities';
+import Stasha_Academy from './Components/Stasha_Academy/Stasha_Academy';
+import Stasha_Dictionary from './Components/Stasha_Dictionary/Stasha_Dictionary';
 
 function App() {
   return (
     <div className="App">
     <Header/>
     <Home_first/>
-    <JoinOurCommunity/> 
     <BuildingBlockchai/>
+    <Opportunities/>
+    <AcceptCrypto/>
+    <Stasha_Academy/>
+    <Stasha_Dictionary/>
+    <JoinOurCommunity/> 
      <FAQ/>
     <Partners/>
     <Newsletter/>
