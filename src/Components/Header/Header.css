@@ -1,0 +1,33 @@
+.main_bg{
+    background-color: #000000;
+    padding: 20px !important;
+}
+
+.header_text{
+    font-family: 'Fredoka';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+}
+
+
+.links_center{
+    margin-left: auto !important;
+}
+
+
+.header_links_clr{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF !important;
+margin:0px 20px !important;
+}

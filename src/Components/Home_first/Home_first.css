@@ -1,0 +1,73 @@
+.home_first_bg {
+  background-color: #000000;
+  padding: 30px 20px !important;
+  position: relative;
+}
+
+.main_home_heading {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 45px !important;
+  line-height: 54px !important;
+  text-align: left;
+
+  color: #ffffff !important;
+}
+
+.home_tet {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px !important;
+
+  color: #9c9c9c !important;
+  text-align: left;
+}
+
+.ex_button {
+  width: 258px;
+  height: 67px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+  background: #00acff;
+  border-radius: 12px;
+  outline: none !important;
+  border: none !important;
+}
+
+
+.get_text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+width: 278px;
+height: 26px;
+}
+
+
+
+
+@media  only screen and (max-width:600px){
+    .ex_button{
+        width: 100% !important;
+    }
+    .get_text{
+        width: 100% !important;
+    }
+}

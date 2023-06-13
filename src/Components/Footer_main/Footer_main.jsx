@@ -32,7 +32,7 @@ export default function Footer_main() {
             </div>
           </div>
 
-          <div className="col-md-2 text-start">
+          <div className="col-md-2 mt-3 mt-md-0 text-start">
             <h5 className="footer_links_header">Products</h5>
             <p className="main_footer_links">Stasha Smartchain</p>
             <p className="main_footer_links">Stasha Exchanges</p>
@@ -44,7 +44,7 @@ export default function Footer_main() {
             <p className="main_footer_links">Staking Platform</p>
             <p className="main_footer_links">Multi-sig Wallet</p>
           </div>
-          <div className="col-md-2 text-start">
+          <div className="col-md-2 mt-3 mt-md-0 text-start">
             <h5 className="footer_links_header">Quick Links</h5>
             <p className="main_footer_links">About Us</p>
             <p className="main_footer_links">Partners</p>
@@ -53,13 +53,13 @@ export default function Footer_main() {
             <p className="main_footer_links">FAQs</p>
             <p className="main_footer_links">Career</p>
           </div>
-          <div className="col-md-2 text-start">
+          <div className="col-md-2 mt-3 mt-md-0 text-start">
             <h5 className="footer_links_header">Dev</h5>
             <p className="main_footer_links">Documentation</p>
             <p className="main_footer_links">Whitepaper</p>
           </div>
-          <div className="col-md-2 text-end">
-          <div className="text-end">
+          <div className="col-md-2 mt-3 mt-md-0 text-start">
+          <div className="text-start ms-0 ms-md-3">
             <h5 className="footer_links_header">Support</h5>
             <p className="main_footer_links">Terms of Use</p>
             <p className="main_footer_links">Privacy Policy</p>

@@ -1,0 +1,61 @@
+.BuildingBlockchai_main_bg {
+  background: #000000;
+  padding: 30px 20px !important;
+}
+
+.building_block_heading > h1 {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+
+  color: #ffffff !important;
+}
+.building_block_heading > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #9c9c9c;
+}
+
+.need_help {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #9c9c9c;
+}
+
+.help_icon {
+  color: rgba(0, 172, 255, 0.9) !important;
+  font-size: 20px !important;
+  margin-left: 1rem !important;
+}
+
+.start_build {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: rgba(0, 172, 255, 0.9);
+  width: 258px;
+  height: 67px;
+
+  background: #000000;
+  border: 1px solid rgba(0, 172, 255, 0.9);
+  border-radius: 12px;
+}
