@@ -1,0 +1,216 @@
+.EcoBg {
+  background: #000000;
+  padding: 30px 20px !important;
+  position: relative;
+}
+
+.eco_Maintitle {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 54px;
+  font-family: "Fredoka";
+}
+
+.eco_Mainsubtitle {
+  color: #9c9c9c;
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.Smartchain_bx {
+  border-radius: 15px;
+  padding: 18px 10px;
+  background-color: rgba(19, 19, 19, 0.5);
+}
+
+.titleMainTxt {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Fredoka";
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.smartDetail {
+  color: #9c9c9c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  font-family: "Roboto";
+  margin-top: 10px;
+}
+
+.exploreAll {
+  color: rgba(0, 172, 255, 0.9);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  font-family: "Roboto";
+  margin-top: 26px;
+  cursor: pointer;
+}
+
+.Walleicn {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.bxsUpper {
+  margin-top: 57px;
+}
+
+.underrw {
+  margin-top: 3.7rem;
+}
+
+.ecocrdBack {
+  background: rgba(0, 172, 255, 0.35);
+  width: 318px;
+  height: 283px;
+  filter: blur(100px);
+  position: absolute;
+  top: 150px;
+  left: 89px;
+}
+.ecocrdBack2 {
+  background: rgba(46, 200, 210, 0.36);
+  filter: blur(100px);
+  position: absolute;
+  width: 242px;
+  height: 216px;
+  left: 1020px;
+  top: 13rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .ecocrdBack {
+    background: rgba(0, 172, 255, 0.35);
+    width: 318px;
+    height: 283px;
+    filter: blur(100px);
+    position: absolute;
+    top: 14rem;
+    left: 0px;
+  }
+  .ecocrdBack2 {
+    background: rgba(46, 200, 210, 0.36);
+    filter: blur(100px);
+    position: absolute;
+    width: 242px;
+    height: 216px;
+    left: 8rem;
+    top: 88rem;
+  }
+
+  .ecobxmnUpper {
+    margin-top: 1.5rem;
+  }
+
+  .eco_Maintitle {
+    font-size: 37px;
+  }
+
+  .eco_Mainsubtitle {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 605px) and (max-width: 768px) {
+  .bxsUpper {
+    margin-top: 57px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .orecoup {
+    margin-top: 0rem !important;
+  }
+
+  .ecobxmnUpper {
+    margin-top: 1.5rem;
+  }
+
+  .eco_Maintitle {
+    font-size: 37px;
+  }
+
+  .eco_Mainsubtitle {
+    font-size: 15px;
+  }
+
+  .midSCr {
+    margin-top: 0px;
+  }
+
+  .midscrdtl {
+    margin-bottom: 8px;
+  }
+
+  .ecocrdBack {
+    background: rgba(0, 172, 255, 0.35);
+    width: 318px;
+    height: 283px;
+    filter: blur(100px);
+    position: absolute;
+    top: 14rem;
+    left: 0px;
+  }
+  .ecocrdBack2 {
+    background: rgba(46, 200, 210, 0.36);
+    filter: blur(100px);
+    position: absolute;
+    width: 242px;
+    height: 216px;
+    left: 32rem;
+    top: 38rem;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1024px) {
+  .titleMainTxt {
+    font-size: 17px;
+  }
+
+  .ecocrdBack {
+    background: rgba(0, 172, 255, 0.35);
+    width: 318px;
+    height: 283px;
+    filter: blur(100px);
+    position: absolute;
+    top: 15rem;
+    left: 1rem;
+  }
+  .ecocrdBack2 {
+    background: rgba(46, 200, 210, 0.36);
+    filter: blur(100px);
+    position: absolute;
+    width: 242px;
+    height: 216px;
+    left: 47rem;
+    top: 19rem;
+  }
+}
+
+@media (min-width: 1030px) and (max-width: 5000px) {
+  .ecocrdBack {
+    background: rgba(0, 172, 255, 0.35);
+    width: 318px;
+    height: 283px;
+    filter: blur(100px);
+    position: absolute;
+    top: 15rem;
+    left: 6rem;
+  }
+  .ecocrdBack2 {
+    background: rgba(46, 200, 210, 0.36);
+    filter: blur(100px);
+    position: absolute;
+    width: 242px;
+    height: 216px;
+    left: 63rem;
+    top: 19rem;
+  }
+}

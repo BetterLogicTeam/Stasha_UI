@@ -153,4 +153,13 @@ right:10px !important;
   .accordion-button{
     font-size: 19px !important;
   }
+
+  .upper_clr {
+    background: rgba(46, 200, 210, 0.36);
+    filter: blur(100px);
+    width: 286px;
+    height: 300px;
+    position: absolute;
+    top: 0px !important;
+  }
 }
