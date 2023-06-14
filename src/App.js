@@ -13,12 +13,18 @@ import AcceptCrypto from './Components/AcceptCrypto/AcceptCrypto';
 import Opportunities from './Components/Opportunities/Opportunities';
 import Stasha_Academy from './Components/Stasha_Academy/Stasha_Academy';
 import Stasha_Dictionary from './Components/Stasha_Dictionary/Stasha_Dictionary';
+import Total_users from './Components/Total_users/Total_users';
+import Stash_wallet from './Components/Stash_wallet/Stash_wallet';
+
 
 function App() {
   return (
     <div className="App">
+ 
     <Header/>
     <Home_first/>
+    <Total_users/>
+    <Stash_wallet/>
     <BuildingBlockchai/>
     <Opportunities/>
     <AcceptCrypto/>
@@ -29,6 +35,8 @@ function App() {
     <Partners/>
     <Newsletter/>
     <Footer_main/> 
+   
+
     </div>
   );
 }

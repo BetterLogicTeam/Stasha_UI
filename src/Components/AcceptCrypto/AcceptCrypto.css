@@ -47,4 +47,8 @@ color: #FFFFFF;
     .respo{
         width: 100% !important;
     }
+    .accept_h4 {
+        font-size: 38px !important;
+        line-height: 41px !important;
+    }
 }

@@ -9,7 +9,7 @@ export default function BuildingBlockchai() {
     <div className="building_block_heading">
 
         <h1>Building Blockchain Infrastructures</h1>
-        <p>At Stasha, we are building a world-class blockchain infrastructure and solution company that is poised to revolutionize the way businesses and individuals use this powerful technology.</p>
+        <p>At Stasha, we are building a world-class blockchain infrastructure and solution company that is <br /> poised to revolutionize the way businesses and individuals use this powerful technology.</p>
   <div className='mt-5 text-center'> 
    <span className='need_help'>Need help?</span>
    <span className='help_icon'><IoIosHelpCircle></IoIosHelpCircle></span>

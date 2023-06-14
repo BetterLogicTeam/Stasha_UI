@@ -1,0 +1,62 @@
+.total_users_main{
+    background:black;
+    /* filter: blur(250px); */
+    padding: 30px 20px !important;
+}
+
+
+.total_user_para{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: left;
+
+color: #FFFFFF;
+}
+
+.zllf{
+    /* color: !important; */
+    border-bottom: 2px solid  rgba(0, 172, 255, 0.88) ;
+    height: 1px !important;
+}
+
+
+.card-type{
+    background: rgba(19, 19, 19, 0.5);
+border-radius: 20px;
+padding: 20px 15px !important  ;
+display: flex ;
+height: 153px;
+justify-content: center;
+align-items: center ;
+}
+
+.card-type >P{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+margin-bottom: 0px !important;
+
+color: #FFFFFF;
+}
+
+.colo{
+    background: linear-gradient(180deg, #00ACFF 0%, #5061FF 100%);
+    
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+font-family: 'Fredoka';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+}
+
+.clo{
+    color: #5061FF  ;
+}

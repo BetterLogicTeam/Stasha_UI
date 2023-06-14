@@ -12,20 +12,20 @@ function Stasha_Dictionary() {
         <div className=" col-md-7 col-12 on_mobile  d-flex">
  
 
-<div className=''>
+<div className='text-center text-md-start'>
     <img src={book} className='' alt="" />
 </div>
 
 <div className='ms-4'>
-    <h5 className='dictionary_h5'>Stasha Dictionary</h5>
-    <p className='dictionary_pa'>Discover the language of the crypto world with  <br />the Stasha Crypto Dictionary.</p>
+    <h5 className='dictionary_h5 text-center text-md-start'>Stasha Dictionary</h5>
+    <p className='dictionary_pa text-center text-md-start'>Discover the language of the crypto world with  <br />the Stasha Crypto Dictionary.</p>
 </div>
 
         </div>
 
-        <div className="  col-12 col-md-5  just_cap_btn col-md-5 d-flex text-center text-md-end  justify-content-end">
+        <div className="  col-12 col-md-5  just_cap_btn col-md-5 d-flex text-center text-md-end justify-content-center  justify-content-md-end">
 
-<button className="acdmi_btn  justify-content-end">View Dictionary </button>
+<button className="acdmi_btn">View Dictionary </button>
 
 </div>
 

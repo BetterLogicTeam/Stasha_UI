@@ -3,6 +3,14 @@
   padding: 10px 20px  30px 20px!important;
   position: relative;
 }
+.upppper_clr{
+  background: rgba(0, 172, 255, 0.9);
+filter: blur(100px);
+position: absolute;
+width: 100px;
+height: 100px;
+top: 50px;
+}
 
 .main_home_heading {
   font-family: "Fredoka";
