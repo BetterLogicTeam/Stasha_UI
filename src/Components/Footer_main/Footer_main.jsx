@@ -59,11 +59,11 @@ export default function Footer_main() {
             <p className="main_footer_links">Whitepaper</p>
           </div>
           <div className="col-md-2 mt-3 mt-md-0 text-start">
-          <div className="text-start ms-0 ms-md-3">
-            <h5 className="footer_links_header">Support</h5>
-            <p className="main_footer_links">Terms of Use</p>
-            <p className="main_footer_links">Privacy Policy</p>
-            <p className="main_footer_links">Contact Us</p>
+            <div className="text-start ms-0 ms-md-3">
+              <h5 className="footer_links_header">Support</h5>
+              <p className="main_footer_links">Terms of Use</p>
+              <p className="main_footer_links">Privacy Policy</p>
+              <p className="main_footer_links">Contact Us</p>
             </div>
           </div>
         </div>

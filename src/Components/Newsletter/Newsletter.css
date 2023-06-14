@@ -1,68 +1,63 @@
-.newsletter_main_bg{
-    background-color: #000000 !important;
-    padding: 30px 20px  !important;
+.newsletter_main_bg {
+  background-color: #000000 !important;
+  padding: 30px 20px !important;
 }
 
-.newsletter_heading{
-    font-family: "Fredoka", sans-serif;
-/* font-style: normal; */
-font-weight: 600 !important;
-font-size: 45px;
-line-height: 54px;
-text-align: center !important;
+.newsletter_heading {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600 !important;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center !important;
 
-
-color: #FFFFFF;
+  color: #ffffff;
 }
 
+.news_par {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
 
-.news_par{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-
-color: #9C9C9C;
+  color: #9c9c9c;
 }
 
-.news_input{
-    background: rgba(19, 19, 19, 0.5);
-border: 1px solid rgba(51, 51, 51, 0.23);
-border-radius: 12px;
-width: 441px;
-height: 67px;
-padding: 10px 15px !important;
+.news_input {
+  background: rgba(19, 19, 19, 0.5);
+  border: 1px solid rgba(51, 51, 51, 0.23);
+  border-radius: 12px;
+  width: 441px;
+  height: 67px;
+  padding: 10px 15px !important;
 }
 
+.subs_butn {
+  outline: none !important;
+  background: #00acff;
+  border: 1px solid rgba(0, 172, 255, 0.9);
+  border-radius: 12px;
+  width: 258px;
+  height: 67px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
 
-.subs_butn{
-    outline: none !important;
-    background: #00ACFF;
-border: 1px solid rgba(0, 172, 255, 0.9);
-border-radius: 12px;
-width: 258px;
-height: 67px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 26px;
-/* identical to box height */
+  text-align: center;
 
-text-align: center;
-
-color: #FFFFFF;
+  color: #ffffff;
 }
 
+@media only screen and (max-width: 600px) {
+  .subs_butn {
+    width: 100% !important;
+  }
 
-@media only screen and (max-width:600px){
-    .subs_butn{
-        width: 100% !important;
-    }
-
-    .news_input{
-        width: 100% !important; 
-    }
+  .news_input {
+    width: 100% !important;
+  }
 }

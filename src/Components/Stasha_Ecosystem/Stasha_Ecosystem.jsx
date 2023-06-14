@@ -124,9 +124,9 @@ function Stasha_Ecosystem() {
                 explore a world of decentralized finance.
               </p>
               <div className="socilaIcon mb-0">
-                <BsGooglePlay className="Walleicn me-3"/>
-                <BsApple className="Walleicn me-3"/>
-                <AiFillChrome className="Walleicn"/>
+                <BsGooglePlay className="Walleicn me-3" />
+                <BsApple className="Walleicn me-3" />
+                <AiFillChrome className="Walleicn" />
               </div>
             </div>
           </div>
@@ -143,7 +143,8 @@ function Stasha_Ecosystem() {
                 <h3 className="titleMainTxt mb-0">Alterverse</h3>
               </div>
               <p className="smartDetail">
-              Alterverse is Stasha's art infrastructure which aims at bridging NFT and making it more user-centric.
+                Alterverse is Stasha's art infrastructure which aims at bridging
+                NFT and making it more user-centric.
               </p>
               <h5 className="exploreAll mb-0">
                 Explore{" "}
@@ -169,7 +170,8 @@ function Stasha_Ecosystem() {
                 <h3 className="titleMainTxt mb-0">NFT Marketplace</h3>
               </div>
               <p className="smartDetail midscrdtl">
-              Immerse yourself in the world of Stasha NFT Marketplace and join the revolution of digital ownership.
+                Immerse yourself in the world of Stasha NFT Marketplace and join
+                the revolution of digital ownership.
               </p>
               <h5 className="exploreAll mb-0 midSCr">
                 Explore{" "}
@@ -195,9 +197,10 @@ function Stasha_Ecosystem() {
                 <h3 className="titleMainTxt mb-0">Staking Platform</h3>
               </div>
               <p className="smartDetail pt-1">
-              Join the Stasha Staking Platform and maximize the value of your holdings.
+                Join the Stasha Staking Platform and maximize the value of your
+                holdings.
               </p>
-              <h5 className="exploreAll mb-0" style={{marginTop:"42px"}}>
+              <h5 className="exploreAll mb-0" style={{ marginTop: "42px" }}>
                 Explore{" "}
                 <span className="ms-1">
                   <BsArrowRight
@@ -221,7 +224,8 @@ function Stasha_Ecosystem() {
                 <h3 className="titleMainTxt mb-0">Multi-sig Wallet</h3>
               </div>
               <p className="smartDetail">
-              Suited for companies that have embraced decentralization and need to own asset vaults managed by various signatories.
+                Suited for companies that have embraced decentralization and
+                need to own asset vaults managed by various signatories.
               </p>
               <h5 className="exploreAll mb-0">
                 Explore{" "}
