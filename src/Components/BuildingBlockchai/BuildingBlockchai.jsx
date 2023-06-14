@@ -17,7 +17,7 @@ export default function BuildingBlockchai() {
    
     </div> 
     <div className='text-center'>
-   <button className='start_build  mt-2'>Start Building</button>
+   <button className='start_build  mt-4 mt-md-2'>Start Building</button>
    </div>
     </div>
     </div>

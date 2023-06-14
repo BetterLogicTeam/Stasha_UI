@@ -46,9 +46,19 @@ color: #FFFFFF;
 @media only screen and  (max-width:600px){
     .respo{
         width: 100% !important;
+        margin-top: 30px !important;
     }
     .accept_h4 {
         font-size: 38px !important;
         line-height: 41px !important;
+    }
+}
+
+
+
+@media only screen and (min-width:700px ) and (max-width:850px){
+    .respo{
+        width: 100% !important;
+        /* margin-top: 30px !important; */
     }
 }

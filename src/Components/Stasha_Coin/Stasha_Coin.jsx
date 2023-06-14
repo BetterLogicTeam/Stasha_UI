@@ -1,6 +1,6 @@
 import React from 'react'
 import './Stasha_Coin.css'
-import fans from '../Assets/fans.svg'
+import fans from '../Assets/grp.png'
 
 function Stasha_Coin() {
   return (
@@ -43,7 +43,7 @@ function Stasha_Coin() {
         <div className="col-md-4 col-12">
 
 
-      <img src={fans} alt="" /> 
+      <img className='respo_sixe' src={fans} alt="" /> 
  
 
         </div>

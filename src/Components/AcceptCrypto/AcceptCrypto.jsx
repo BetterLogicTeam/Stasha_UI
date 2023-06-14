@@ -1,7 +1,7 @@
 import React from 'react'
 import './AcceptCrypto.css'
 import { BiRightArrowAlt} from 'react-icons/bi';
-import screen from "../Assets/sreen.png";
+import screen from "../Assets/macs.png";
 
 
 function AcceptCrypto() {

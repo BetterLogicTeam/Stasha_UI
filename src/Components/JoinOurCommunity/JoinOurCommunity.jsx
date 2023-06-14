@@ -13,7 +13,7 @@ export default function JoinOurCommunity() {
                 <p>Join the Stasha community and be part of the decentralized revolution.</p>
             </div>
             <div className="soicaali_">
-            <div className="d-flex mt-3 mt-md-0 justify-content-center gap-4">
+            <div className="d-flex mt-5 mt-md-3 mt-md-0 justify-content-center gap-4">
               <div className="social_icons_main">
                 <FaTelegramPlane className="icon_size"></FaTelegramPlane>
               </div>

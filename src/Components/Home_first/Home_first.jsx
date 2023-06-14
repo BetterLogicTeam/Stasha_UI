@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home_first.css";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import world from "../Assets/world.svg";
+import home_img from "../Assets/home_img.gif";
 export default function Home_first() {
   return (
     <div className="home_first_bg" id="Home">
@@ -25,7 +25,7 @@ export default function Home_first() {
             </div>
           </div>
           <div className="col-md-5">
-            <img src={world} className="w-100   animmma" alt="" />
+            <img src={home_img} className="w-100   animmma" alt="" />
           </div>
         </div>
       </div>

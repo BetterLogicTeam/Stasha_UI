@@ -35,7 +35,7 @@ function App() {
     <Stasha_Dictionary/>
     <JoinOurCommunity/> 
      <FAQ/>
-    <Partners/>
+      <Partners/>
     <Newsletter/>
     <Footer_main/> 
    

@@ -75,4 +75,15 @@ background-clip: text;
     flex-direction: column !important;
 
    }
+
+   .respo_sixe{
+    width: 100% !important;
+   }
+  }
+
+
+  @media only screen and (min-width:700px ) and (max-width:850px){
+    .respo_sixe{
+        width: 100% !important;
+    }
   }
