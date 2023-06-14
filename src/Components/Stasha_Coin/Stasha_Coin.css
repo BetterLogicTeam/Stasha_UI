@@ -49,7 +49,6 @@ font-weight: 400;
 font-size: 14px;
 line-height: 16px;
 text-align: center;
-
 color: #FFFFFF;
 }
 
@@ -66,5 +65,14 @@ background: linear-gradient(180deg, #00ACFF 0%, #5061FF 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
-text-fill-color: transparent;
+/* text-fill-color: transparent; */
 }
+
+@media only screen and (max-width: 600px) {
+   .boxxxxxxxs{
+
+    width: 100%;
+    flex-direction: column !important;
+
+   }
+  }

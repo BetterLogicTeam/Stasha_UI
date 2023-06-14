@@ -13,6 +13,7 @@ import AcceptCrypto from './Components/AcceptCrypto/AcceptCrypto';
 import Opportunities from './Components/Opportunities/Opportunities';
 import Stasha_Academy from './Components/Stasha_Academy/Stasha_Academy';
 import Stasha_Dictionary from './Components/Stasha_Dictionary/Stasha_Dictionary';
+import Stasha_Coin from './Components/Stasha_Coin/Stasha_Coin';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     <Home_first/>
     <BuildingBlockchai/>
     <Opportunities/>
+    <Stasha_Coin />
     <AcceptCrypto/>
     <Stasha_Academy/>
     <Stasha_Dictionary/>

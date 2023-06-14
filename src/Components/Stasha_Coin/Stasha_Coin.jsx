@@ -1,5 +1,6 @@
 import React from 'react'
 import './Stasha_Coin.css'
+import fans from '../Assets/fans.svg'
 
 function Stasha_Coin() {
   return (
@@ -16,7 +17,7 @@ function Stasha_Coin() {
         Stasha Coin is a revolutionary digital currency built on the robust  <br />foundations of Binance Smartchain.
         </p>
 
-       <div className='d-flex '>
+       <div className='d-flex gap-3'>
        <div className='boxxxxxxxs'>
            <div>
            <p className='current mt-0'>
@@ -39,12 +40,13 @@ function Stasha_Coin() {
 
         </div>
 
-        {/* <div className="col-md-4 col-12">
+        <div className="col-md-4 col-12">
 
 
- hamza 
+      <img src={fans} alt="" /> 
+ 
 
-        </div> */}
+        </div>
     </div>
 </div>
 
