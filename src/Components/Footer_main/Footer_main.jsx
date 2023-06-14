@@ -34,36 +34,36 @@ export default function Footer_main() {
 
           <div className="col-md-2 mt-3 mt-md-0 text-start">
             <h5 className="footer_links_header">Products</h5>
-            <p className="main_footer_links">Stasha Smartchain</p>
-            <p className="main_footer_links">Stasha Exchanges</p>
-            <p className="main_footer_links">Stasha Block Explorer</p>
-            <p className="main_footer_links">Stasha Wallet</p>
-            <p className="main_footer_links">Alterverse</p>
-            <p className="main_footer_links">NFT Marketplace</p>
-            <p className="main_footer_links">Stasha Coin</p>
-            <p className="main_footer_links">Staking Platform</p>
-            <p className="main_footer_links">Multi-sig Wallet</p>
+            <a href="#" className="deco"><p className="main_footer_links">Stasha Smartchain</p></a>
+            <a href="#" className="deco"><p className="main_footer_links">Stasha Exchanges</p></a>
+            <a href="#" className="deco"><p className="main_footer_links">Stasha Block Explorer</p></a>
+            <a className="main_footer_links" href="#wallet">Stasha Wallet</a>
+            <a href="#" className="deco"><p className="main_footer_links">Alterverse</p></a>
+            <a href="#" className="deco"><p className="main_footer_links">NFT Marketplace</p></a>
+            <a href="#" className="deco"><p className="main_footer_links">Stasha Coin</p></a>
+            <a href="#" className="deco"><p className="main_footer_links">Staking Platform</p></a>
+            <a href="#" className="deco"><p className="main_footer_links">Multi-sig Wallet</p></a>
           </div>
           <div className="col-md-2 mt-3 mt-md-0 text-start">
             <h5 className="footer_links_header">Quick Links</h5>
-            <p className="main_footer_links">About Us</p>
-            <p className="main_footer_links">Partners</p>
-            <p className="main_footer_links">Blogs</p>
-            <p className="main_footer_links">Resources</p>
-            <p className="main_footer_links">FAQs</p>
-            <p className="main_footer_links">Career</p>
+            <a href="#" className="deco" ><p className="main_footer_links">About Us</p></a>
+            <a className="main_footer_links" href="#Partner" >Partners</a>
+            <a href="#" className="deco" ><p className="main_footer_links">Blogs</p></a>
+            <a href="#" className="deco" ><p className="main_footer_links">Resources</p></a>
+            <a className="main_footer_links" href="#faq">FAQs</a>
+            <a href="#" className="deco" ><p className="main_footer_links" href="#">Career</p></a>
           </div>
           <div className="col-md-2 mt-3 mt-md-0 text-start">
             <h5 className="footer_links_header">Dev</h5>
-            <p className="main_footer_links">Documentation</p>
-            <p className="main_footer_links">Whitepaper</p>
+            <a href="#" className="deco"><p className="main_footer_links">Documentation</p></a>
+            <a href="#" className="deco"><p className="main_footer_links">Whitepaper</p></a>
           </div>
           <div className="col-md-2 mt-3 mt-md-0 text-start">
-          <div className="text-start ms-0 ms-md-3">
-            <h5 className="footer_links_header">Support</h5>
-            <p className="main_footer_links">Terms of Use</p>
-            <p className="main_footer_links">Privacy Policy</p>
-            <p className="main_footer_links">Contact Us</p>
+            <div className="text-start ms-0 ms-md-3">
+              <h5 className="footer_links_header">Support</h5>
+              <a href="#" className="deco"> <p className="main_footer_links">Terms of Use</p></a>
+              <a href="#" className="deco"> <p className="main_footer_links">Privacy Policy</p></a>
+              <a href="#" className="deco"> <p className="main_footer_links">Contact Us</p></a>
             </div>
           </div>
         </div>

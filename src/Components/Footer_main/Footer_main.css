@@ -45,6 +45,7 @@
 }
 
 .main_footer_links{
+  text-decoration: none;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -54,4 +55,8 @@ line-height: 16px;
 color: #9C9C9C;
 padding: 10px 0px !important;
 margin-bottom: 0px !important;
+}
+
+.deco{
+  text-decoration: none;
 }

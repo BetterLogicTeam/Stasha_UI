@@ -5,7 +5,7 @@ import { FaFacebookF, FaTelegramPlane } from "react-icons/fa";
 
 export default function JoinOurCommunity() {
   return (
-    <div className='main_join_comm_bg'>
+    <div className='main_join_comm_bg' id='Community'>
     <div className="container-fluid">
         <div className="join_us">
             <div className="text_content text-start">

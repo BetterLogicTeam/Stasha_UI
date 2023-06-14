@@ -8,7 +8,7 @@ import nas from "../Assets/nas.svg"
 
 export default function Partners() {
   return (
-    <div className="main_partner_bg">
+    <div className="main_partner_bg" id="Partner">
       <div className="container-fluid">
         <div className="partners_box">
           <h1 className="partners_heading">Official Partners</h1>

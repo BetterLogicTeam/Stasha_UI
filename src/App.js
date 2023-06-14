@@ -16,7 +16,7 @@ import Stasha_Dictionary from './Components/Stasha_Dictionary/Stasha_Dictionary'
 import Total_users from './Components/Total_users/Total_users';
 import Stash_wallet from './Components/Stash_wallet/Stash_wallet';
 import Stasha_Coin from './Components/Stasha_Coin/Stasha_Coin';
-
+import Stasha_Ecosystem from"./Components/Stasha_Ecosystem/Stasha_Ecosystem";
 
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
     <Total_users/>
     <Stash_wallet/>
     <BuildingBlockchai/>
+    <Stasha_Ecosystem/>
     <Opportunities/>
     <Stasha_Coin />
     <AcceptCrypto/>
