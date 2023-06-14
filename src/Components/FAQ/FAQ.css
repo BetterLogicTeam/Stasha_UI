@@ -142,6 +142,10 @@ bottom: 0px !important;
 right:10px !important;
 }
 
+.accordion-body
+{
+  padding-left: 0px !important;
+}
 
 
 @media  only screen and (max-width:600px)

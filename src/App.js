@@ -15,6 +15,7 @@ import Stasha_Academy from './Components/Stasha_Academy/Stasha_Academy';
 import Stasha_Dictionary from './Components/Stasha_Dictionary/Stasha_Dictionary';
 import Total_users from './Components/Total_users/Total_users';
 import Stash_wallet from './Components/Stash_wallet/Stash_wallet';
+import Stasha_Coin from './Components/Stasha_Coin/Stasha_Coin';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
     <Stash_wallet/>
     <BuildingBlockchai/>
     <Opportunities/>
+    <Stasha_Coin />
     <AcceptCrypto/>
     <Stasha_Academy/>
     <Stasha_Dictionary/>
