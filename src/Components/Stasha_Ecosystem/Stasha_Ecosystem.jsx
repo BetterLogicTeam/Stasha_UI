@@ -16,7 +16,7 @@ import { AiFillChrome } from "react-icons/ai";
 function Stasha_Ecosystem() {
   return (
     <div className="EcoBg">
-      <div className="container-fluid pb-2 pb-md-5">
+      <div className="container pb-2 pb-md-5">
         <div className="eco_headings text-center">
           <h1 className="eco_Maintitle">Stasha Ecosystem</h1>
           <p className="eco_Mainsubtitle">
@@ -131,7 +131,13 @@ function Stasha_Ecosystem() {
             </div>
           </div>
 
-          <div className="col-lg-3 ecobxmnUpper underrw">
+
+
+
+       
+        </div>
+        <div className="row mt-4">
+        <div className="col-lg-3 ecobxmnUpper underrw">
             <div className="Smartchain_bx ">
               <div className="title_smartchain d-flex align-items-center gap-2">
                 <img

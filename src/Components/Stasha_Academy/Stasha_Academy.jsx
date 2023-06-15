@@ -1,12 +1,12 @@
 import React from "react";
 import "./Stasha_Academy.css";
-import cap from "../Assets/cap.svg";
+import cap from "../Assets/cap.png";
 
 function Stasha_Academy() {
   return (
     <div className=" accdmi_bbg">
-      <div className="container-fluid">
-        <div className="row   ">
+      <div className="container">
+        <div className="row align-items  ">
           <div className="col-12 text-center text-md-start col-md-4 just_cap_btn  ">
             <button className="acdmi_btn ">Get Start </button>
           </div>
@@ -29,7 +29,7 @@ function Stasha_Academy() {
             </div>
           </div>
 
-          <a href="http://" className="lern_maore">
+          <a href="http://" className="lern_maore ">
             {" "}
             Learn More{" "}
           </a>

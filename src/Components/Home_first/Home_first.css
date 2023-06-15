@@ -15,8 +15,8 @@ top: 50px;
 .main_home_heading {
   font-family: "Fredoka";
   font-style: normal;
-  font-weight: 500 !important;
-  font-size: 45px !important;
+  font-weight: 600 !important;
+  font-size: 46px !important;
   line-height: 54px !important;
   text-align: left;
 
@@ -88,5 +88,10 @@ right: 10px !important;
     }
     .get_text{
         width: 100% !important;
+    }
+
+    .main_home_heading {
+      font-size: 31px  !important;
+      line-height: 38px !important;
     }
 }

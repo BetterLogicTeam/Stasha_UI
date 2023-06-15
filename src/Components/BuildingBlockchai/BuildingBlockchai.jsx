@@ -5,7 +5,7 @@ import {IoIosHelpCircle} from "react-icons/io"
 export default function BuildingBlockchai() {
   return (
     <div className='BuildingBlockchai_main_bg'>
-    <div className="container-fluid">
+    <div className="container">
     <div className="building_block_heading">
 
         <h1>Building Blockchain Infrastructures</h1>

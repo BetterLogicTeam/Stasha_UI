@@ -16,8 +16,8 @@
 .faq_main_heaing {
   font-family: "Fredoka";
   font-style: normal;
-  font-weight: 500;
-  font-size: 45px;
+  font-weight: 600 !important;
+  font-size: 47px;
   line-height: 54px;
 
   color: #ffffff;
@@ -27,9 +27,9 @@
 .faq_pr {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 23px;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 23px !important;
 
   color: #9c9c9c;
   text-align: left;
@@ -38,9 +38,10 @@
 .questios {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600 !important;
   font-size: 25px;
   line-height: 29px;
+  margin-bottom: 10px;
 
   color: #ffffff;
 }
@@ -68,82 +69,77 @@
   border-radius: 12px;
 }
 
-.accordion-item{
-    background-color: transparent !important;
-    border: none !important;
+.accordion-item {
+  background-color: transparent !important;
+  border: none !important;
 }
 
-.accordion{
-    border: none !important;
-    border-color: none !important;
+.accordion {
+  border: none !important;
+  border-color: none !important;
 }
 
-.accordion-button
-{
-    background-color:transparent !important;
-    border-bottom: 1px solid rgba(51, 51, 51, 0.7);
-
+.accordion-button {
+  background-color: transparent !important;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.7);
 }
 
-.faq_para{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px !important;
-text-align: left !important;
+.faq_para {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 450 !important;
+  font-size: 21px;
+  line-height: 23px !important;
+  text-align: left !important;
 
-color: #9C9C9C !important;
+  color: #9c9c9c !important;
 }
-.accordion-button:not(.collapsed){
-    box-shadow: none !important;
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
 }
 ::marker {
-    display: none !important;
-    list-style: none !important;
+  display: none !important;
+  list-style: none !important;
 }
-details > summary:first-of-type{
-    list-style: none !important;
-    list-style-type: none !important;
-}
-
-
-.accordion-button{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 29px;
-    
-    padding: 20px 0px !important;
-    color: #FFFFFF;
-    text-align: center !important;
-}
-.accordion-button:focus{
-    box-shadow: none !important;
-}
-.accordion-button:not(.collapsed){
-    color: white !important;
+details > summary:first-of-type {
+  list-style: none !important;
+  list-style-type: none !important;
 }
 
+.accordion-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 550 !important;
+  font-size: 27px;
+  line-height: 29px;
 
-.read_more{
-    color: #00ACFF !important;
+  padding: 22px 0px !important;
+  color: #ffffff;
+  text-align: center !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  color: white !important;
 }
 
+.read_more {
+  color: #00acff !important;
+  font-weight: 600 !important;
+}
 
-.lower_clr{
+.lower_clr {
   background: rgba(0, 172, 255, 0.24);
-filter: blur(100px);
-position: absolute;
-width: 251px;
-height: 235px;
-bottom: 0px !important;
-right:10px !important;
+  filter: blur(100px);
+  position: absolute;
+  width: 251px;
+  height: 235px;
+  bottom: 0px !important;
+  right: 10px !important;
 }
 
-.accordion-body
-{
+.accordion-body {
   padding-left: 0px !important;
 }
 
@@ -153,25 +149,23 @@ right:10px !important;
   height: 1.25rem;
   margin-left: auto;
   content: "";
-  background-image: url('../Assets/maki_arrow.svg');
+  background-image: url("../Assets/maki_arrow.svg");
   background-repeat: no-repeat;
   background-size: 1.25rem;
-  transition: transform .2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image:url(../Assets/maki_arrow_blu.svg) !important;
+  background-image: url(../Assets/maki_arrow_blu.svg) !important;
   transform: var(--bs-accordion-btn-icon-transform);
 }
 
-
-@media  only screen and (max-width:600px)
- {
+@media only screen and (max-width: 600px) {
   .questionn_btn {
     width: 100% !important;
     margin: 20px 0px !important;
   }
-  .accordion-button{
+  .accordion-button {
     font-size: 19px !important;
   }
 
@@ -182,5 +176,10 @@ right:10px !important;
     height: 300px;
     position: absolute;
     top: 0px !important;
+  }
+
+  .faq_main_heaing {
+    font-size: 33px !important;
+     line-height: 40px;
   }
 }

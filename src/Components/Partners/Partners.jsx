@@ -9,15 +9,15 @@ import nas from "../Assets/nas.svg"
 export default function Partners() {
   return (
     <div className="main_partner_bg" id="Partner">
-      <div className="container-fluid">
+      <div className="container">
         <div className="partners_box">
           <h1 className="partners_heading">Official Partners</h1>
           <div className="d-flex justify-content-center partners_logi">
-            <img src={yaho} alt="" />
-            <img src={market} alt="" />
-            <img src={bloom} alt="" />
-            <img src={tech} alt="" />
-            <img src={nas} alt="" />
+            <img className="mbl_size" src={yaho} alt="" />
+            <img className="mbl_size" src={market} alt="" />
+            <img className="mbl_size" src={bloom} alt="" />
+            <img className="mbl_size" src={tech} alt="" />
+            <img className="mbl_size" src={nas} alt="" />
           </div>
         </div>
       </div>

@@ -7,17 +7,17 @@ function Stasha_Coin() {
     <div className='stasg_coin_bg'>
 
 
-<div className="container-fluid">
+<div className="container">
     <div className="row">
         <div className="col-12 col-md-8">
         <h5 className='stash_hh5 text-start'>
         Stasha Coin $STC
         </h5>
-        <p className='coin_pahr'>
+        {/* <p className='coin_pahr'>
         Stasha Coin is a revolutionary digital currency built on the robust  <br />foundations of Binance Smartchain.
-        </p>
+        </p> */}
 
-       <div className='d-flex gap-4'>
+       <div className='d-flex two_boxess gap-4'>
        <div className='boxxxxxxxs'>
            <div>
            <p className='current mt-0'>

@@ -6,6 +6,7 @@
 
     background: linear-gradient(270deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 172, 255, 0.135) 100%);
     border-radius: 45px;
+    padding:40px 30px !important ;
 
 
 }
@@ -13,8 +14,8 @@
 .accept_h4{
     font-family: "Fredoka", sans-serif;
 
-font-size: 45px;
-font-weight: 500;
+font-size: 47px;
+font-weight: 600;
 line-height: 54px;
 color: #FFFFFF;
 }
@@ -40,6 +41,7 @@ color: #FFFFFF;
     text-align: center;
     text-decoration: none !important;
     color: #00ACFF;
+    /* margin-top: 3rem !important; */
 }
 
 

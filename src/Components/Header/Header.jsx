@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <div className="main_bg">
       <Navbar collapseOnSelect expand="lg" variant="dark">
-        <Container fluid>
+        <Container >
           <Navbar.Brand >
             <a href="#Home" style={{textDecoration:"none"}}>
             <div className="d-flex align-items-center gap-2" style={{cursor:"pointer"}}>

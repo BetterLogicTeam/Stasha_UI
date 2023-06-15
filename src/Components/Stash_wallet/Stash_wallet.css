@@ -45,8 +45,8 @@ top: -86px !important;
 .wallet_heading{
     font-family: 'Fredoka';
     font-style: normal;
-    font-weight: 500;
-    font-size: 45px;
+    font-weight: 600;
+    font-size: 47px;
     line-height: 54px;
     text-align: right;
     color: #fff;
@@ -109,5 +109,12 @@ color: #FFFFFF;
     }
     .lgrre{
         position: static !important;
+    }
+
+    .wallet_heading {
+        font-size: 37px !important;
+    }
+    .waleet_ppara {
+        text-align: left !important;
     }
 }

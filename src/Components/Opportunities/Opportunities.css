@@ -6,8 +6,8 @@
 
     font-family: 'Fredoka';
 font-style: normal;
-font-weight: 500;
-font-size: 45px;
+font-weight: 600;
+font-size: 47px;
 line-height: 54px;
 text-align: center;
 
@@ -28,8 +28,7 @@ color: #9C9C9C;
 .opper_first_btn{
     width: 258px;
 height: 67px;
-left: 691px;
-top: 2424px;
+
 
 background: #00ACFF;
 border: 1px solid rgba(0, 172, 255, 0.9);
@@ -53,8 +52,7 @@ color: #FFFFFF;
 
     width: 258px;
     height: 67px;
-    left: 970px;
-    top: 2424px;
+    
     
     background: #000000;
     border: 1px solid rgba(0, 172, 255, 0.9);
@@ -77,5 +75,9 @@ color: rgba(0, 172, 255, 0.9);
     .opper_mob_btn{
 
         width: 100%;
+    }
+
+    .opper_h5 {
+        font-size: 30px !important;
     }
   }

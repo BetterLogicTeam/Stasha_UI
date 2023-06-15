@@ -5,7 +5,7 @@ import Accordion from "react-bootstrap/Accordion";
 export default function FAQ() {
   return (
     <div className="faq_main_bg" id="faq">
-      <div className="container-fluid">
+      <div className="container">
         <div className="upper_clr"></div>
         <div className="row">
           <div className="col-md-5">

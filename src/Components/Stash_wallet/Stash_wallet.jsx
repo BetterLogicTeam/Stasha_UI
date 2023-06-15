@@ -8,6 +8,8 @@ import apple from "../Assets/apple.png"
 export default function Stash_wallet() {
   return (
     <div className='stash_wallet_main' id='wallet'>
+    <div className="continer">
+
     <div className="gdgd"></div>
 <div className="stas_wallet_card d-flex flex-column flex-md-row justify-content-between">
 <div>
@@ -41,6 +43,7 @@ export default function Stash_wallet() {
 
 </div>
 </div>
+    </div>
 
 </div>
   

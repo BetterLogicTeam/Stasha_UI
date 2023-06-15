@@ -7,8 +7,8 @@
 
     font-family: 'Fredoka';
 font-style: normal;
-font-weight: 550;
-font-size: 45px;
+font-weight: 600;
+font-size: 47px;
 line-height: 54px;
 text-align: center;
 
@@ -24,6 +24,10 @@ font-size: 20px;
 line-height: 23px;
 
 color: #9C9C9C;
+}
+
+.two_boxess{
+    margin-top: 4rem !important;
 }
 
 .boxxxxxxxs{
@@ -76,8 +80,12 @@ background-clip: text;
 
    }
 
+   .stash_hh5 {
+    font-size: 39px !important;
+   }
+
    .respo_sixe{
-    width: 100% !important;
+    width: 90% !important;
    }
   }
 

@@ -4,7 +4,7 @@ import "./Newsletter.css"
 export default function Newsletter() {
   return (
     <div className='newsletter_main_bg'>
-    <div className="container-fluid">
+    <div className="container">
         <div className="row justify-content-center">
         
                 <h1 className='newsletter_heading'>Subscribe to our Newsletter</h1>

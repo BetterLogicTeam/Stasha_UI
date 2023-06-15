@@ -6,7 +6,7 @@
 .newsletter_heading {
   font-family: "Fredoka", sans-serif;
   font-weight: 600 !important;
-  font-size: 45px;
+  font-size: 47px;
   line-height: 54px;
   text-align: center !important;
 
@@ -16,8 +16,8 @@
 .news_par {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 500 !important;
+  font-size: 21px;
   line-height: 23px;
   text-align: center;
 
@@ -57,5 +57,9 @@
 
   .news_input {
     width: 100% !important;
+  }
+  .newsletter_heading {
+    font-size: 39px !important;
+    line-height: 42px !important;
   }
 }

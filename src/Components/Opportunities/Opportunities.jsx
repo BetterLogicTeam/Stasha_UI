@@ -5,7 +5,7 @@ function Opportunities() {
   return (
     <div className='opport_bg d-flex'>
 
-<div className="container-fluid">
+<div className="container">
     <div className="row justify-content-between">
 
 <div className="col-md-5 col-12">

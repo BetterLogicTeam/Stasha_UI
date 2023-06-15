@@ -6,7 +6,8 @@ import { BiRightArrowAlt} from 'react-icons/bi';
 
 function Stasha_Dictionary() {
   return (
-   <div className="container-fluid dictionay_bg">
+   <div className=" dictionay_bg">
+   <div className="container">
 
     <div className="row p-md-3 m-0 p-0 ">
         <div className=" col-md-7 col-12 on_mobile  d-flex">
@@ -29,9 +30,11 @@ function Stasha_Dictionary() {
 
 </div>
 
-<a href="http://" className='diction_learn mt-5 d-flex  justify-content-end'>Learn More  <BiRightArrowAlt  className='m-1'/>  </a>
+<a href="http://" className='diction_learn mt-4 mt-md-0 d-flex  justify-content-end'>Learn More  <BiRightArrowAlt  className='m-1'/>  </a>
     </div>
     <div className='line_thori' ></div>
+   </div>
+
 
    </div>
   )

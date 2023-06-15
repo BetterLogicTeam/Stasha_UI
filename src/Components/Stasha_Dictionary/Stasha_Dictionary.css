@@ -1,40 +1,51 @@
-.dictionay_bg{
-    background-color: #000C11;
+.dictionay_bg {
+  background-color: #000c11;
 }
-.dictionary_h5{
+.dictionary_h5 {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 47px;
+  line-height: 54px;
 
-    font-family: 'Fredoka';
-font-style: normal;
-font-weight: 500;
-font-size: 45px;
-line-height: 54px;
-
-color: #FFFFFF;
+  color: #ffffff;
 }
-.dictionary_pa{
+.dictionary_pa {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
 
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-
-color: #9C9C9C;
-
+  color: #9c9c9c;
 }
-.diction_learn{
-
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-text-decoration: none !important;
-color: rgba(0, 172, 255, 0.9);
-
+.diction_learn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none !important;
+  color: rgba(0, 172, 255, 0.9);
+}
+.diction_learn:hover {
+  color: rgba(0, 172, 255, 0.9) !important;
 }
 
+.main_car {
+  padding: 20px 30px !important;
+}
 
-.main_car{
-    padding: 20px 30px !important;
+
+
+@media only screen and (max-width:600px){
+    .dictionary_h5 {
+        font-size: 37px !important;
+        margin-top: 12px !important ;
+    }
+
+    .dictionary_pa{
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
 }

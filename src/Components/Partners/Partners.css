@@ -13,8 +13,8 @@ padding: 20px !important;
 .partners_heading{
     font-family: "Fredoka", sans-serif !important;
 font-style: normal;
-font-weight: 500;
-font-size: 45px;
+font-weight: 600;
+font-size: 47px;
 line-height: 54px;
 text-align: center;
 
@@ -26,7 +26,8 @@ color: #FFFFFF;
     display: flex !important;
     justify-content: center !important;
     align-items: center;
-    gap: 3rem !important;
+    gap: 3.5rem !important;
+    margin-top: 10px !important;
 }
 
 
@@ -35,4 +36,14 @@ color: #FFFFFF;
     .partners_logi{
         flex-direction:column !important ;
     }
+
+    .partners_heading{
+        font-size: 36px !important;
+    }
+
+    .mbl_size{
+        width: 60% !important;
+    }
+
+   
 }

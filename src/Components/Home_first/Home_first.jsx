@@ -6,17 +6,17 @@ export default function Home_first() {
   return (
     <div className="home_first_bg" id="Home">
       <div className="home_lwer_clr"></div>
-      <div className="container-fluid">
+      <div className="container">
         <div className="row align-items-center">
           <div className="col-md-7">
-            <h1 className="main_home_heading">
+            <h1 className="main_home_heading mb-0">
               Unleashing the power of blockchain for a better tomorrow.
             </h1>
-            <p className="home_tet">
+            <p className="home_tet mb-0 py-5">
               Embrace a World of Infinite Possibilities in Blockchain Innovation
               and Empowerment for a Brighter Future!
             </p>
-            <div className="home_buttos d-flex gap-3 align-items-center mt-5 flex-column flex-md-row">
+            <div className="home_buttos d-flex gap-3 align-items-center  flex-column flex-md-row">
               <button className="ex_button">Explore Ecosystem</button>
               <h6 className="get_text mt-3 mt-md-0">
                 Get Started with Building{" "}

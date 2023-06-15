@@ -7,7 +7,7 @@ import {MdArrowBackIosNew} from "react-icons/md"
 export default function Total_users() {
   return (
     <div className='total_users_main'>
-    <div className="container-fluid">
+    <div className="container">
         <div className="row">
             <div className="col-md-3 mt-3 mt-md-0">
                 <h3 className='total_user_para'>Join the thriving Stasha community today and be a part of this exciting journey. </h3>

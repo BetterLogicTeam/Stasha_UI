@@ -7,7 +7,7 @@ import { FaFacebookF, FaTelegramPlane } from "react-icons/fa";
 export default function Footer_main() {
   return (
     <div className="main_footer_bg">
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           <div className="col-md-4 text-start">
             <div className="d-flex gap-3 align-items-center">
@@ -32,7 +32,7 @@ export default function Footer_main() {
             </div>
           </div>
 
-          <div className="col-md-2 mt-3 mt-md-0 text-start">
+          <div className="col-md-2 col-6 mt-3 mt-md-0 text-start">
             <h5 className="footer_links_header">Products</h5>
             <a href="#" className="deco"><p className="main_footer_links">Stasha Smartchain</p></a>
             <a href="#" className="deco"><p className="main_footer_links">Stasha Exchanges</p></a>
@@ -44,7 +44,7 @@ export default function Footer_main() {
             <a href="#" className="deco"><p className="main_footer_links">Staking Platform</p></a>
             <a href="#" className="deco"><p className="main_footer_links">Multi-sig Wallet</p></a>
           </div>
-          <div className="col-md-2 mt-3 mt-md-0 text-start">
+          <div className="col-md-2 col-6 mt-3 mt-md-0 text-start">
             <h5 className="footer_links_header">Quick Links</h5>
             <a href="#" className="deco" ><p className="main_footer_links">About Us</p></a>
             <a className="main_footer_links" href="#Partner" >Partners</a>
@@ -53,12 +53,12 @@ export default function Footer_main() {
             <a className="main_footer_links" href="#faq">FAQs</a>
             <a href="#" className="deco" ><p className="main_footer_links" href="#">Career</p></a>
           </div>
-          <div className="col-md-2 mt-3 mt-md-0 text-start">
+          <div className="col-md-2 mt-3 col-6 mt-md-0 text-start">
             <h5 className="footer_links_header">Dev</h5>
             <a href="#" className="deco"><p className="main_footer_links">Documentation</p></a>
             <a href="#" className="deco"><p className="main_footer_links">Whitepaper</p></a>
           </div>
-          <div className="col-md-2 mt-3 mt-md-0 text-start">
+          <div className="col-md-2 mt-3 col-6 mt-md-0 text-start">
             <div className="text-start ms-0 ms-md-3">
               <h5 className="footer_links_header">Support</h5>
               <a href="#" className="deco"> <p className="main_footer_links">Terms of Use</p></a>
