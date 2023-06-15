@@ -3,7 +3,7 @@ import './Opportunities.css'
 
 function Opportunities() {
   return (
-    <div className='opport_bg d-flex'>
+    <div className='opport_bg '>
 
 <div className="container">
     <div className="row justify-content-between">
@@ -17,7 +17,7 @@ function Opportunities() {
 
 
 </div>
-<div className="col-md-5 col-12 d-flex gap-3 flex-column flex-md-row  justify-content-end">
+<div className="col-md-5 tab_mar col-12 d-flex gap-3 flex-column flex-md-row  justify-content-end">
 
 
 <button className='opper_first_btn  opper_mob_btn'>Launch Project</button>
@@ -27,6 +27,7 @@ function Opportunities() {
 
     </div>
 </div>
+<div className='line_thori mt-5  '></div>
 
 
     </div>

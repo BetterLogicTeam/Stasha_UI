@@ -57,6 +57,11 @@ padding: 10px 0px !important;
 margin-bottom: 0px !important;
 }
 
+
+.main_footer_links:hover{
+  color: #9C9C9C !important; 
+}
+
 .deco{
   text-decoration: none;
 }

@@ -17,7 +17,7 @@
   font-family: "Fredoka";
   font-style: normal;
   font-weight: 600 !important;
-  font-size: 47px;
+  font-size: 43px;
   line-height: 54px;
 
   color: #ffffff;
@@ -52,7 +52,7 @@
 
 .questionn_btn {
   width: 258px;
-  height: 67px;
+  height: 57px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -110,8 +110,9 @@ details > summary:first-of-type {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 550 !important;
-  font-size: 27px;
+  font-size: 24px;
   line-height: 29px;
+  z-index: 1  ;
 
   padding: 22px 0px !important;
   color: #ffffff;
@@ -135,6 +136,7 @@ details > summary:first-of-type {
   position: absolute;
   width: 251px;
   height: 235px;
+  
   bottom: 0px !important;
   right: 10px !important;
 }
@@ -166,8 +168,11 @@ details > summary:first-of-type {
     margin: 20px 0px !important;
   }
   .accordion-button {
-    font-size: 19px !important;
+  font-size: 16px !important;  
   }
+  /* .lower_clr{
+    display: none;
+  } */
 
   .upper_clr {
     background: rgba(46, 200, 210, 0.36);

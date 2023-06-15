@@ -60,3 +60,14 @@ font-size: 45px;
 .clo{
     color: #5061FF  ;
 }
+
+
+@media only screen and (min-width:650px) and (max-width:850px){
+.total_user_para {
+    font-size: 11px !important;
+}
+.colo {
+    font-size: 33px !important;
+    padding: 10px 0px !important;
+}
+}

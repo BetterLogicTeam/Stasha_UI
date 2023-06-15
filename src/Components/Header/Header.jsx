@@ -38,7 +38,7 @@ export default function Header() {
                 <NavDropdown.Item href="#action/3.3">Stasha Block Explorer</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">Stasha Wallet</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link className="header_links_clr" href="#Community">Community</Nav.Link>
+              <Nav.Link className="header_links_clr" href="#Community" style={{cursor:"pointer"}}>Community</Nav.Link>
             </Nav>
 
             <Nav className="ms-auto">

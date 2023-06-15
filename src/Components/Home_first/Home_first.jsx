@@ -7,7 +7,7 @@ export default function Home_first() {
     <div className="home_first_bg" id="Home">
       <div className="home_lwer_clr"></div>
       <div className="container">
-        <div className="row align-items-center">
+        <div className="row ">
           <div className="col-md-7">
             <h1 className="main_home_heading mb-0">
               Unleashing the power of blockchain for a better tomorrow.
@@ -25,7 +25,7 @@ export default function Home_first() {
             </div>
           </div>
           <div className="col-md-5">
-            <img src={home_img} className="w-100   animmma" alt="" />
+            <img src={home_img}  className="w-100   animmma" alt="" />
           </div>
         </div>
       </div>

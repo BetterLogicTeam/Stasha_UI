@@ -9,7 +9,7 @@ function Stasha_Dictionary() {
    <div className=" dictionay_bg">
    <div className="container">
 
-    <div className="row p-md-3 m-0 p-0 ">
+    <div className="row py-md-3 m-0 p-0 ">
         <div className=" col-md-7 col-12 on_mobile  d-flex">
  
 

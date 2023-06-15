@@ -7,7 +7,7 @@
     font-family: 'Fredoka';
 font-style: normal;
 font-weight: 600;
-font-size: 47px;
+font-size: 43px;
 line-height: 54px;
 text-align: center;
 
@@ -27,7 +27,7 @@ color: #9C9C9C;
 
 .opper_first_btn{
     width: 258px;
-height: 67px;
+height: 57px;
 
 
 background: #00ACFF;
@@ -51,7 +51,7 @@ color: #FFFFFF;
 .opper_second_btn{
 
     width: 258px;
-    height: 67px;
+    height: 57px;
     
     
     background: #000000;
@@ -79,5 +79,34 @@ color: rgba(0, 172, 255, 0.9);
 
     .opper_h5 {
         font-size: 30px !important;
+    }
+  }
+
+
+
+
+  .opport_bggg{
+color:  rgba(51, 51, 51, 0.7);
+height: 3px !important;
+  }
+
+
+
+  @media only screen and (min-width:650px) and (max-width:850px) {
+    .opper_h5{
+        font-size:28px !important;
+    }
+
+
+    .opper_first_btn {
+        font-size: 16px !important;
+    }
+
+    .opper_second_btn{
+        font-size:13px !important;
+    }
+
+    .tab_mar{
+        margin-top: 10px !important;
     }
   }

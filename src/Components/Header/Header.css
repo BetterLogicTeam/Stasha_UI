@@ -22,6 +22,7 @@ color: #FFFFFF;
 .header_links_clr{
     font-family: 'Roboto';
 font-style: normal;
+cursor: pointer !important;
 font-weight: 500;
 font-size: 22px;
 line-height: 26px;
@@ -33,10 +34,25 @@ margin:0px 20px !important;
 }
 
 
+.header_links_clr:hover{
+    cursor: pointer !important;
+}
+
+
+
 
 @media only screen and (max-width:600px){
     .links_center{
         margin-left: 0px !important;
         text-align: center !important;
     }
+}
+
+@media only screen and (min-width:650px) and (max-width:900px){
+    .links_center{
+        margin-left: 0px !important;
+        text-align: center !important;
+        margin-bottom: 1.5rem !important  ;
+    } 
+  
 }

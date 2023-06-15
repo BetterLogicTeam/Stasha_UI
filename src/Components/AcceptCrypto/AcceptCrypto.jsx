@@ -6,7 +6,7 @@ import screen from "../Assets/macs.png";
 function AcceptCrypto() {
   return (
     <div className=" accept_main_bg">
-      <div className="conatiner">
+      <div className="container">
         <div className="row p-3 accept_bg   p-0 mx-0">
           <div className="col-12 col-md-6">
             <h5 className="accept_h4">

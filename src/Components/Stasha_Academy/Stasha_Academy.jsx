@@ -34,8 +34,8 @@ function Stasha_Academy() {
             Learn More{" "}
           </a>
         </div>
-      </div>
       <div className="line_thori"></div>
+      </div>
     </div>
   );
 }

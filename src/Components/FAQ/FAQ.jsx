@@ -38,7 +38,7 @@ export default function FAQ() {
                       to the crypto market various products that would appeal to
                       the average crypto enthusiast.
                       <span>
-                        <details className="d-flex">
+                        <details className="d-flex mt-3 mt-md-1">
                           <summary className="read_more">Read more</summary>
                           <p>
                             Stasha is a leading blockchain infrastructure and
@@ -71,7 +71,7 @@ export default function FAQ() {
                       to the crypto market various products that would appeal to
                       the average crypto enthusiast.
                       <span>
-                        <details className="d-flex">
+                        <details className="d-flex mt-3 mt-md-0">
                           <summary className="read_more">Read more</summary>
                           <p>
                             Stasha is a leading blockchain infrastructure and
@@ -104,7 +104,7 @@ export default function FAQ() {
                       to the crypto market various products that would appeal to
                       the average crypto enthusiast.
                       <span>
-                        <details className="d-flex">
+                        <details className="d-flex mt-3 mt-md-0">
                           <summary className="read_more">Read more</summary>
                           <p>
                             Stasha is a leading blockchain infrastructure and
@@ -137,7 +137,7 @@ export default function FAQ() {
                       to the crypto market various products that would appeal to
                       the average crypto enthusiast.
                       <span>
-                        <details className="d-flex">
+                        <details className="d-flex mt-3 mt-md-0">
                           <summary className="read_more">Read more</summary>
                           <p>
                             Stasha is a leading blockchain infrastructure and

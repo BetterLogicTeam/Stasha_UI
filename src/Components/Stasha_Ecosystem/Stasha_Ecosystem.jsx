@@ -137,7 +137,7 @@ function Stasha_Ecosystem() {
        
         </div>
         <div className="row mt-4">
-        <div className="col-lg-3 ecobxmnUpper underrw">
+        <div className="col-lg-3 col-md-6 ecobxmnUpper underrw">
             <div className="Smartchain_bx ">
               <div className="title_smartchain d-flex align-items-center gap-2">
                 <img
@@ -164,7 +164,7 @@ function Stasha_Ecosystem() {
             </div>
           </div>
 
-          <div className="col-lg-3 ecobxmnUpper underrw">
+          <div className="col-lg-3 col-md-6 ecobxmnUpper underrw">
             <div className="Smartchain_bx ">
               <div className="title_smartchain d-flex align-items-center gap-2">
                 <img
@@ -191,7 +191,7 @@ function Stasha_Ecosystem() {
             </div>
           </div>
 
-          <div className="col-lg-3 ecobxmnUpper underrw">
+          <div className="col-lg-3 col-md-6 ecobxmnUpper underrw">
             <div className="Smartchain_bx ">
               <div className="title_smartchain d-flex align-items-center gap-2">
                 <img
@@ -218,7 +218,7 @@ function Stasha_Ecosystem() {
             </div>
           </div>
 
-          <div className="col-lg-3 ecobxmnUpper underrw">
+          <div className="col-lg-3 col-md-6 ecobxmnUpper underrw">
             <div className="Smartchain_bx ">
               <div className="title_smartchain d-flex align-items-center gap-2">
                 <img

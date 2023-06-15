@@ -1,120 +1,186 @@
-
-
-.stash_wallet_main{
-    background-color: #000000;
-    padding: 100px 30px !important;
-    position: relative;
-
+.stash_wallet_main {
+  background-color: #000000;
+  padding: 100px 30px !important;
+  position: relative;
 }
 
-.waleet_ppara{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-text-align: right;
-
-color: #FFFFFF !important;
+.cluee{
+    background: rgba(0, 172, 255, 0.35) !important;
+    width: 351px;
+height: 200px;
+position: absolute !important;
+top: 10px;
+filter: blur(100px) !important;
 }
 
 
-.stas_wallet_card{
-    background: linear-gradient(270deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 172, 255, 0.135) 100%);
-border-radius: 45px;
-padding: 30px 20px !important;
-position: relative !important;
-height: 302px;
+
+.clueee{
+    background: rgba(0, 172, 255, 0.35) !important;
+    width: 300px;
+height: 300px;
+top: 10px;
+position: absolute;
+left:30%;
+filter:  blur(100px) !important; 
+}
+.clueeee{
+    background: rgba(0, 172, 255, 0.35) !important;
+    width: 300px;
+height: 300px;
+top: -20px;
+position: absolute;
+left:50%;
+filter:  blur(100px) !important; 
 }
 
+.waleet_ppara {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
 
-.iphone{
-    position: absolute;
-    left: 50px !important;
-/* width: 299px; */
-top: -86px !important;
-/* height: 388px; */
+  color: #ffffff !important;
 }
 
-.lgrre{
-    position: absolute;
-    right: 60px !important;
+.stas_wallet_card {
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0.15) 0%,
+    rgba(0, 172, 255, 0.135) 100%
+  );
+  border-radius: 45px;
+  padding: 30px 20px !important;
+  position: relative !important;
+  height: 302px;
 }
 
+.iphone {
+  position: absolute;
+  left: 50px !important;
+  /* width: 299px; */
+  top: -86px !important;
+  /* height: 388px; */
+}
 
-.wallet_heading{
-    font-family: 'Fredoka';
+.lgrre {
+  position: absolute;
+  right: 70px !important;
+}
+
+.wallet_heading {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43px;
+  line-height: 54px;
+  text-align: right;
+  color: #fff;
+}
+.wallet_heading > span {
+  color: #00acff;
+}
+
+.ggog {
+  border: 1px solid #ffffff;
+  border-radius: 14px;
+  width: 202px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.get_itn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.gg_ply {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .iphone {
+    display: none !important;
+  }
+
+  .stas_wallet_card {
+    height: auto !important;
+  }
+
+  .ggog {
+    width: 100% !important;
+  }
+  .stash_wallet_main {
+    padding: 20px 10px !important;
+  }
+  .lgrre {
+    position: static !important;
+  }
+
+  .wallet_heading {
+    font-size: 37px !important;
+  }
+  .waleet_ppara {
+    text-align: left !important;
+  }
+
+
+  .cluee{
+    width: 288px !important;
+
+  }
+  .clueee{
+    display: none !important;
+  }
+  .clueeee{
+    display: none !important;
+  }
+
+}
+
+@media only screen and (min-width: 650px) and (max-width: 800px) {
+  .iphone {
+    width: 210px !important;
+    height: 360px;
+    top: -59px !important;
+  }
+  .waleet_ppara {
+    font-family: "Roboto";
     font-style: normal;
-    font-weight: 600;
-    font-size: 47px;
-    line-height: 54px;
+    font-weight: 400;
+    font-size: 13px !important;
+    line-height: 21px;
     text-align: right;
-    color: #fff;
-}
-.wallet_heading >span {
-    color: #00ACFF;
-}
+
+    color: #ffffff !important;
+  }
+
+  .lgrre{
+    right: 0px !important;
+  }
+  .ggog{
+    width: 174px !important;
+    height: 64px !important;
+  }
 
 
-.ggog{
-    border: 1px solid #FFFFFF;
-border-radius: 14px;
-width: 202px;
-height: 76px;
-display: flex;
-justify-content: center;
-flex-direction:column ;
-align-items: center;
-}
 
-
-.get_itn{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-}
-
-.gg_ply{
-    font-family: 'Fredoka';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-text-align: right;
-
-color: #FFFFFF;
-}
-
-
-@media only screen and (max-width:600px){
-    .iphone{
-        display: none !important;
-    }
-
-    .stas_wallet_card{
-        height: auto !important;
-    }
-
-    .ggog{
-        width: 100% !important;
-    }
-    .stash_wallet_main{
-        padding: 20px 10px !important;
-    }
-    .lgrre{
-        position: static !important;
-    }
-
-    .wallet_heading {
-        font-size: 37px !important;
-    }
-    .waleet_ppara {
-        text-align: left !important;
-    }
 }
