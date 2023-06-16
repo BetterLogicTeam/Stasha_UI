@@ -42,5 +42,9 @@ color: #9C9C9C;
     .text_content >h1 {
         font-size: 25px !important;
     }
+    .text_content >p {
+        font-size: 13px !important;
+        line-height: 20px !important    ;
+    }
 }
 

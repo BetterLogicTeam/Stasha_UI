@@ -17,7 +17,7 @@ function Opportunities() {
 
 
 </div>
-<div className="col-md-5 tab_mar col-12 d-flex gap-3 flex-column flex-md-row  justify-content-end">
+<div className="col-md-5 tab_mar col-12 d-flex gap-3   justify-content-end">
 
 
 <button className='opper_first_btn  opper_mob_btn'>Launch Project</button>

@@ -74,11 +74,25 @@ color: rgba(0, 172, 255, 0.9);
     
     .opper_mob_btn{
 
-        width: 100%;
+        width: 50%;
+    }
+
+    .opper_first_btn {
+        font-size: 16px !important;
     }
 
     .opper_h5 {
-        font-size: 30px !important;
+        font-size: 28px !important;
+    }
+
+
+    .opper_pah{
+        text-align: center !important;
+        font-size: 12px !important;
+    }
+
+    .opper_second_btn{
+        font-size: 14px !important  ;
     }
   }
 

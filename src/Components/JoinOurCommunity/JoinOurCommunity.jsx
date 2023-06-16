@@ -8,7 +8,7 @@ export default function JoinOurCommunity() {
     <div className='main_join_comm_bg' id='Community'>
     <div className="container">
         <div className="join_us">
-            <div className="text_content text-start">
+            <div className="text_content text-center text-md-start">
                 <h1>Join Our Community</h1>
                 <p>Join the Stasha community and be part of the decentralized revolution.</p>
             </div>

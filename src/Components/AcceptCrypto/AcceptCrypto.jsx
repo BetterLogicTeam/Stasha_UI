@@ -20,10 +20,10 @@ function AcceptCrypto() {
               friendly, fast and secure.
             </p>
 
-            <a href=" " className="get_bton mt-4">
+            <p href=" " className="get_bton text-center text-md-start  mt-4">
               {" "}
               Get Started <BiRightArrowAlt />{" "}
-            </a>
+            </p>
           </div>
           <div className="col-12 col-md-6 ">
             <img src={screen} className="respo" alt="img" />

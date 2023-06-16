@@ -35,15 +35,24 @@ color: #FFFFFF;
 @media only screen and (max-width:600px){
     .partners_logi{
         flex-direction:column !important ;
+        display: none !important;
     }
 
     .partners_heading{
-        font-size: 36px !important;
+        font-size: 28px !important;
     }
 
     .mbl_size{
-        width: 205px !important;
+        width: 115px !important;
     }
 
    
+}
+
+
+
+@media only screen and (min-width:650px) and  (max-width:850px){
+    .partners_logi {
+        gap: 0.5rem !important;
+    }
 }

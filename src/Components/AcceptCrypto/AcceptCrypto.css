@@ -51,8 +51,20 @@ color: #FFFFFF;
         margin-top: 30px !important;
     }
     .accept_h4 {
-        font-size: 38px !important;
-        line-height: 41px !important;
+        font-size: 24px !important;
+        line-height: 36px !important;
+        text-align: center !important;
+    }
+    .accrpt_pp{
+        font-size: 11px;
+        text-align: center !important;
+    }
+
+    .accept_bg{
+        padding: 30px 0px !important;
+    }
+    .accept_main_bg {
+        padding: 30px 0px !important;
     }
 }
 

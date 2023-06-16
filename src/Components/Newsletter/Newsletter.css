@@ -59,7 +59,11 @@
     width: 100% !important;
   }
   .newsletter_heading {
-    font-size: 39px !important;
+    font-size: 25px !important;
     line-height: 42px !important;
+  }
+
+  .news_par {
+    font-size: 12px !important;
   }
 }

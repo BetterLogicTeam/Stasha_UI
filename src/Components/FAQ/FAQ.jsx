@@ -16,7 +16,8 @@ export default function FAQ() {
             <p className="faq_pr">Find out all the basics about Stasha.</p>
             <div className="qu  text-start">
               <p className="questios">Do you have questions? </p>
-              <button className="questionn_btn">Ask Us</button>
+              <div className="d-flex justify-content-center justify-content-md-start">
+              <button className="questionn_btn">Ask Us</button> </div>
             </div>
           </div>
           <div className="col-md-7">

@@ -75,12 +75,16 @@ margin-bottom: 2rem !important;
     /* margin-left: 5px; */
     justify-content: center;
    }
+   .lern_maore{
+    margin-top: 1rem !important;
+    margin-bottom: 1rem  !important;
+   }
 
    .accdmi_h5 {
-    font-size: 41px !important;
+    font-size: 28px !important;
    }
    .accdmi_pp{
-    font-size: 21px !important;
+    font-size: 12px !important;
 
 }
 

@@ -87,15 +87,25 @@ right: 10px !important;
 
 @media  only screen and (max-width:600px){
     .ex_button{
-        width: 100% !important;
+        width: 158px!important;
+        font-size: 16px !important;
     }
     .get_text{
-        width: 100% !important;
+        width: 86% !important;
+        text-align: center;
     }
 
     .main_home_heading {
-      font-size: 31px  !important;
-      line-height: 38px !important;
+      font-size: 20px !important;
+      line-height: 32px !important;
+      text-align: center;
+    }
+
+    .home_tet{
+      text-align: center !important;
+      line-height: 15px !important;
+      font-size: 13px !important;
+      padding-top:10px !important ;
     }
 
 

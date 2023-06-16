@@ -71,3 +71,22 @@ font-size: 45px;
     padding: 10px 0px !important;
 }
 }
+
+
+@media only screen  and (max-width:600px){
+    .colo{
+        font-size: 29px !important;
+    }
+
+    .total_user_para {
+        font-size: 7px !important;
+        text-align: center !important;
+    }
+
+    .card-type >P{
+        font-size:10px !important;
+    }
+    .card-type{
+        padding:20px 11px !important ;
+    }
+}

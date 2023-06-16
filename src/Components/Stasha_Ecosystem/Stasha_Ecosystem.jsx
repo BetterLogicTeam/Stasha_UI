@@ -12,6 +12,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { BsGooglePlay } from "react-icons/bs";
 import { BsApple } from "react-icons/bs";
 import { AiFillChrome } from "react-icons/ai";
+import Accordion from "react-bootstrap/Accordion";
 
 function Stasha_Ecosystem() {
   return (
@@ -26,7 +27,7 @@ function Stasha_Ecosystem() {
         </div>
         <div className="ecocrdBack"></div>
         <div className="ecocrdBack2"></div>
-        <div className="row bxsUpper">
+        <div className="row bxsUpper d-none d-md-flex">
           <div className="col-lg-3 Smartchain_bxUpper ">
             <div className="Smartchain_bx">
               <div className="title_smartchain d-flex align-items-center gap-2">
@@ -130,14 +131,10 @@ function Stasha_Ecosystem() {
               </div>
             </div>
           </div>
-
-
-
-
-       
         </div>
-        <div className="row mt-4">
-        <div className="col-lg-3 col-md-6 ecobxmnUpper underrw">
+
+        <div className="row mt-4 d-none d-md-flex ">
+          <div className="col-lg-3 col-md-6 ecobxmnUpper underrw">
             <div className="Smartchain_bx ">
               <div className="title_smartchain d-flex align-items-center gap-2">
                 <img
@@ -244,6 +241,179 @@ function Stasha_Ecosystem() {
               </h5>
             </div>
           </div>
+        </div>
+
+        <div className="mobli d-block d-md-none">
+          <Accordion defaultActiveKey="10">
+            <Accordion.Item eventKey="10">
+              <Accordion.Header className="acc_heading">
+                <div className="title_smartchain d-flex align-items-center gap-2">
+                  <img
+                    src={smartEco_1}
+                    alt="#"
+                    className="smartIcon"
+                    style={{ width: "10%" }}
+                  />
+                  <h3 className=" mb-0">Stasha Smartchain</h3>
+                </div>
+              </Accordion.Header>
+              <Accordion.Body>
+                <div className="conternt_faq d-flex">
+                  <p className="faq_para">
+                    Stasha Smartchain is a new generation high-performant
+                    blockchain based on a unique consensus algorithm (S-DPoS).
+                  </p>
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="11">
+              <Accordion.Header className="acc_heading">
+                <div className="title_smartchain d-flex align-items-center gap-2">
+                  <img
+                    src={smartEco_2}
+                    alt="#"
+                    className="smartIcon"
+                    style={{ width: "10%" }}
+                  />
+                  <h3 className="titleMainTxt mb-0">Stasha Exchanges</h3>
+                </div>
+              </Accordion.Header>
+              <Accordion.Body>
+                <div className="conternt_faq d-flex">
+                  <p className="faq_para">
+                    This is a flexible ecosystem which gives users access to all
+                    crypto products and services in a single platform.
+                  </p>
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="12">
+              <Accordion.Header className="acc_heading">
+                <div className="title_smartchain d-flex align-items-center gap-2">
+                  <img
+                    src={smartEco_3}
+                    alt="#"
+                    className="smartIcon"
+                    style={{ width: "10%" }}
+                  />
+                  <h3 className="titleMainTxt mb-0">Stasha Block Explorer</h3>
+                </div>
+              </Accordion.Header>
+              <Accordion.Body>
+                <div className="conternt_faq d-flex">
+                  <p className="faq_para">
+                    This is a flexible ecosystem which gives users access to all
+                    crypto products and services in a single platform.
+                  </p>
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="13">
+              <Accordion.Header className="acc_heading">
+                <div className="title_smartchain d-flex align-items-center gap-2">
+                  <img
+                    src={smartEco_4}
+                    alt="#"
+                    className="smartIcon"
+                    style={{ width: "10%" }}
+                  />
+                  <h3 className="titleMainTxt mb-0">Stasha Wallet</h3>
+                </div>
+              </Accordion.Header>
+              <Accordion.Body>
+                <div className="conternt_faq d-flex">
+                  <p className="faq_para">
+                    Experience the freedom of managing your digital assets and
+                    explore a world of decentralized finance.
+                  </p>
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="14">
+              <Accordion.Header className="acc_heading">
+                <div className="title_smartchain d-flex align-items-center gap-2">
+                  <img
+                    src={smartEco_5}
+                    alt="#"
+                    className="smartIcon"
+                    style={{ width: "10%" }}
+                  />
+                  <h3 className="titleMainTxt mb-0">Alterverse</h3>
+                </div>
+              </Accordion.Header>
+              <Accordion.Body>
+                <div className="conternt_faq d-flex">
+                  <p className="faq_para">
+                    Alterverse is Stasha's art infrastructure which aims at
+                    bridging NFT and making it more user-centric.
+                  </p>
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="15">
+              <Accordion.Header className="acc_heading">
+                <div className="title_smartchain d-flex align-items-center gap-2">
+                  <img
+                    src={smartEco_6}
+                    alt="#"
+                    className="smartIcon"
+                    style={{ width: "10%" }}
+                  />
+                  <h3 className="titleMainTxt mb-0">NFT Marketplace</h3>
+                </div>
+              </Accordion.Header>
+              <Accordion.Body>
+                <div className="conternt_faq d-flex">
+                  <p className="faq_para">
+                    Immerse yourself in the world of Stasha NFT Marketplace and
+                    join the revolution of digital ownership.
+                  </p>
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="16">
+              <Accordion.Header className="acc_heading">
+                <div className="title_smartchain d-flex align-items-center gap-2">
+                  <img
+                    src={smartEco_7}
+                    alt="#"
+                    className="smartIcon"
+                    style={{ width: "10%" }}
+                  />
+                  <h3 className="titleMainTxt mb-0">Staking Platform</h3>
+                </div>
+              </Accordion.Header>
+              <Accordion.Body>
+                <div className="conternt_faq d-flex">
+                  <p className="faq_para">
+                    Join the Stasha Staking Platform and maximize the value of
+                    your holdings.
+                  </p>
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="17">
+              <Accordion.Header className="acc_heading">
+                <div className="title_smartchain d-flex align-items-center gap-2">
+                  <img
+                    src={smartEco_8}
+                    alt="#"
+                    className="smartIcon"
+                    style={{ width: "10%" }}
+                  />
+                  <h3 className="titleMainTxt mb-0">Multi-sig Wallet</h3>
+                </div>
+              </Accordion.Header>
+              <Accordion.Body>
+                <div className="conternt_faq d-flex">
+                  <p className="faq_para">
+                    Suited for companies that have embraced decentralization and
+                    need to own asset vaults managed by various signatories.
+                  </p>
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
         </div>
       </div>
     </div>

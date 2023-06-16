@@ -164,7 +164,7 @@ details > summary:first-of-type {
 
 @media only screen and (max-width: 600px) {
   .questionn_btn {
-    width: 100% !important;
+    width: 160px !important;
     margin: 20px 0px !important;
   }
   .accordion-button {
@@ -179,12 +179,23 @@ details > summary:first-of-type {
     filter: blur(100px);
     width: 286px;
     height: 300px;
+    display: none !important;
     position: absolute;
     top: 0px !important;
   }
 
+  .faq_pr {
+    font-size: 19px !important;
+    text-align: center !important;
+  }
+  .questios {
+    font-size: 19px !important;
+    text-align: center !important;
+  }
+
   .faq_main_heaing {
-    font-size: 33px !important;
-     line-height: 40px;
+    font-size: 28px !important;
+    line-height: 40px;
+    text-align: center !important;
   }
 }

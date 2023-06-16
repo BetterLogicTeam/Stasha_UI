@@ -10,13 +10,13 @@ export default function Footer_main() {
       <div className="container">
         <div className="row">
           <div className="col-md-4 text-start">
-            <div className="d-flex gap-3 align-items-center">
+            <div className="d-flex justify-content-center justify-content-md-start  gap-3 align-items-center">
               <img src={footer_logo} alt="" />
               <h4 className="footer_heading">Stasha</h4>
             </div>
 
             {/* // soical icons button  */}
-            <div className="d-flex mt-5 gap-4">
+            <div className="d-flex justify-content-center justify-content-md-start mt-5 gap-4">
               <div className="social_icons_main">
                 <FaTelegramPlane className="icon_size"></FaTelegramPlane>
               </div>
@@ -66,6 +66,10 @@ export default function Footer_main() {
               <a href="#" className="deco"> <p className="main_footer_links">Contact Us</p></a>
             </div>
           </div>
+        </div>
+
+        <div className="copy_right">
+          <p className="mb-0">© 2022 Copyright and rights reserved</p>
         </div>
       </div>
     </div>

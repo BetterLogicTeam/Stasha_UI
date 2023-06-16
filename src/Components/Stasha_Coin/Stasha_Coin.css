@@ -81,11 +81,17 @@ background-clip: text;
    }
 
    .stash_hh5 {
-    font-size: 39px !important;
+    font-size: 28px !important;
+    text-align: center !important;
    }
 
+   .coin_pahr {
+    font-size: 10px !important;
+    text-align: center !important;
+    margin-bottom: 10px !important;
+   }
    .respo_sixe{
-    width: 90% !important;
+    width: 66% !important;
    }
   }
 

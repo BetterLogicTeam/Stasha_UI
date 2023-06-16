@@ -116,6 +116,16 @@ filter:  blur(100px) !important;
   color: #ffffff;
 }
 
+
+.bakk{
+
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 172, 255, 0.135) 100%);
+  border-radius: 45px;
+  padding: 20px 15px !important;
+}
+
+
+
 @media only screen and (max-width: 600px) {
   .iphone {
     display: none !important;
@@ -126,7 +136,12 @@ filter:  blur(100px) !important;
   }
 
   .ggog {
-    width: 100% !important;
+    width: 150px;
+    /* height: 50px; */
+  }
+
+  .gg_ply {
+    font-size: 16px !important;
   }
   .stash_wallet_main {
     padding: 20px 10px !important;
@@ -135,11 +150,18 @@ filter:  blur(100px) !important;
     position: static !important;
   }
 
+
+  .mbl_i{
+    position: relative !important;
+    bottom: -20px !important;
+  }
   .wallet_heading {
-    font-size: 37px !important;
+    font-size: 25px !important;
+    text-align: center;
   }
   .waleet_ppara {
-    text-align: left !important;
+    text-align: center !important;
+    font-size: 10px !important;
   }
 
 

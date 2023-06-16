@@ -16,7 +16,7 @@ export default function Home_first() {
               Embrace a World of Infinite Possibilities in Blockchain Innovation
               and Empowerment for a Brighter Future!
             </p>
-            <div className="home_buttos d-flex gap-3 align-items-center  flex-column flex-md-row">
+            <div className="home_buttos d-none  d-md-flex gap-3 align-items-center  flex-column flex-md-row">
               <button className="ex_button">Explore Ecosystem</button>
               <h6 className="get_text mt-3 mt-md-0">
                 Get Started with Building{" "}
@@ -26,6 +26,13 @@ export default function Home_first() {
           </div>
           <div className="col-md-5">
             <img src={home_img}  className="w-100   animmma" alt="" />
+            <div className="home_buttos d-block d-md-none  d-flex gap-3 align-items-center  flex-column flex-md-row">
+              <h6 className="get_text mt-3 mt-md-0">
+                Get Started with Building{" "}
+                <MdOutlineKeyboardArrowRight></MdOutlineKeyboardArrowRight>{" "}
+              </h6>
+              <button className="ex_button">Explore Ecosystem</button>
+            </div>
           </div>
         </div>
       </div>
