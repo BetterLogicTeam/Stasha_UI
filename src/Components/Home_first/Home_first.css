@@ -87,8 +87,8 @@ right: 10px !important;
 
 @media  only screen and (max-width:600px){
     .ex_button{
-        width: 158px!important;
-        font-size: 16px !important;
+        width: 164px!important;
+        font-size: 14px !important;
     }
     .get_text{
         width: 86% !important;
@@ -112,6 +112,13 @@ right: 10px !important;
     .animmma{
       margin-top: 10px !important;
     }
+    
+}
+
+@media only screen and (max-width:360px){
+  .get_text {
+    width: 100% !important;
+  }
 }
 
 @media only screen and (min-width:650px) and (max-width:900px){
@@ -125,11 +132,12 @@ right: 10px !important;
 }
 
 .ex_button {
-  font-size: 18px !important  ;
+  font-size: 16px !important  ;
 }
 .get_text {
   font-size: 17px !important;
   width: 320px !important
   ;
 }
+
 }

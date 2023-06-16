@@ -22,7 +22,7 @@ export default function FAQ() {
           </div>
           <div className="col-md-7">
             <Accordion defaultActiveKey="0">
-              <Accordion.Item eventKey="0">
+              <Accordion.Item eventKey="20">
                 <Accordion.Header className="acc_heading">
                   What is Stasha Blockchain Ecosystem?
                 </Accordion.Header>

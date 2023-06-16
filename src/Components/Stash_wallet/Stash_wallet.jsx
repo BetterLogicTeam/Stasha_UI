@@ -69,7 +69,7 @@ export default function Stash_wallet() {
 
     </div>
 </div>
-<div>
+<div className='d-flex justify-content-center'>
     <img src={iPhone13Pro} className='mbl_i' alt="" />
 </div>
 

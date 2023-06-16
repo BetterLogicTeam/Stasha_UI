@@ -258,12 +258,12 @@ function Stasha_Ecosystem() {
                 </div>
               </Accordion.Header>
               <Accordion.Body>
-                <div className="conternt_faq d-flex">
+                {/* <div className="conternt_faq d-flex">
                   <p className="faq_para">
                     Stasha Smartchain is a new generation high-performant
                     blockchain based on a unique consensus algorithm (S-DPoS).
                   </p>
-                </div>
+                </div> */}
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="11">
@@ -279,12 +279,12 @@ function Stasha_Ecosystem() {
                 </div>
               </Accordion.Header>
               <Accordion.Body>
-                <div className="conternt_faq d-flex">
+                {/* <div className="conternt_faq d-flex">
                   <p className="faq_para">
                     This is a flexible ecosystem which gives users access to all
                     crypto products and services in a single platform.
                   </p>
-                </div>
+                </div> */}
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="12">
@@ -300,12 +300,12 @@ function Stasha_Ecosystem() {
                 </div>
               </Accordion.Header>
               <Accordion.Body>
-                <div className="conternt_faq d-flex">
+                {/* <div className="conternt_faq d-flex">
                   <p className="faq_para">
                     This is a flexible ecosystem which gives users access to all
                     crypto products and services in a single platform.
                   </p>
-                </div>
+                </div> */}
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="13">
@@ -321,12 +321,12 @@ function Stasha_Ecosystem() {
                 </div>
               </Accordion.Header>
               <Accordion.Body>
-                <div className="conternt_faq d-flex">
+                {/* <div className="conternt_faq d-flex">
                   <p className="faq_para">
                     Experience the freedom of managing your digital assets and
                     explore a world of decentralized finance.
                   </p>
-                </div>
+                </div> */}
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="14">
@@ -342,12 +342,12 @@ function Stasha_Ecosystem() {
                 </div>
               </Accordion.Header>
               <Accordion.Body>
-                <div className="conternt_faq d-flex">
+                {/* <div className="conternt_faq d-flex">
                   <p className="faq_para">
                     Alterverse is Stasha's art infrastructure which aims at
                     bridging NFT and making it more user-centric.
                   </p>
-                </div>
+                </div> */}
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="15">
@@ -363,12 +363,12 @@ function Stasha_Ecosystem() {
                 </div>
               </Accordion.Header>
               <Accordion.Body>
-                <div className="conternt_faq d-flex">
+                {/* <div className="conternt_faq d-flex">
                   <p className="faq_para">
                     Immerse yourself in the world of Stasha NFT Marketplace and
                     join the revolution of digital ownership.
                   </p>
-                </div>
+                </div> */}
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="16">
@@ -384,12 +384,12 @@ function Stasha_Ecosystem() {
                 </div>
               </Accordion.Header>
               <Accordion.Body>
-                <div className="conternt_faq d-flex">
+                {/* <div className="conternt_faq d-flex">
                   <p className="faq_para">
                     Join the Stasha Staking Platform and maximize the value of
                     your holdings.
                   </p>
-                </div>
+                </div> */}
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="17">
@@ -405,12 +405,12 @@ function Stasha_Ecosystem() {
                 </div>
               </Accordion.Header>
               <Accordion.Body>
-                <div className="conternt_faq d-flex">
+                {/* <div className="conternt_faq d-flex">
                   <p className="faq_para">
                     Suited for companies that have embraced decentralization and
                     need to own asset vaults managed by various signatories.
                   </p>
-                </div>
+                </div> */}
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>

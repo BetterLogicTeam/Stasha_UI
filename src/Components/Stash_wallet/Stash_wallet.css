@@ -206,3 +206,13 @@ filter:  blur(100px) !important;
 
 
 }
+
+
+
+@media only screen and (max-width:350px){
+  .join_us {
+    .join_us{
+      padding: 30px 12px !important;
+    }
+  }
+}
