@@ -121,4 +121,9 @@ margin-bottom: 2rem !important;
     .accdmi_h5{
         font-size: 27px !important;
     }
+    .accdmi_pp{
+
+        font-size: 18px !important;
+    line-height: 30px !important;
+    }
   }

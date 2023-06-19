@@ -29,7 +29,7 @@ function Stasha_Ecosystem() {
         <div className="ecocrdBack"></div>
         <div className="ecocrdBack2"></div>
         <div className="row bxsUpper d-none d-md-flex">
-          <div className="col-lg-3 Smartchain_bxUpper ">
+          <div className="col-lg-3 col-md-6 Smartchain_bxUpper ">
             <div className="Smartchain_bx">
               <div className="title_smartchain d-flex align-items-center gap-2">
                 <img
@@ -38,7 +38,7 @@ function Stasha_Ecosystem() {
                   className="smartIcon"
                   style={{ width: "10%" }}
                 />
-                <h3 className="titleMainTxt mb-0">Stasha Smartchain</h3>
+                <h3 className="titleMainTxt mb-0">Stasha Smartchain </h3>
               </div>
               <p className="smartDetail">
                 Stasha Smartchain is a new generation high-performant blockchain
@@ -56,7 +56,7 @@ function Stasha_Ecosystem() {
             </div>
           </div>
 
-          <div className="col-lg-3 ecobxmnUpper orecoup">
+          <div className="col-lg-3 col-md-6 ecobxmnUpper orecoup">
             <div className="Smartchain_bx ">
               <div className="title_smartchain d-flex align-items-center gap-2">
                 <img
@@ -83,7 +83,7 @@ function Stasha_Ecosystem() {
             </div>
           </div>
 
-          <div className="col-lg-3 ecobxmnUpper">
+          <div className="col-lg-3 col-md-6 ecobxmnUpper">
             <div className="Smartchain_bx">
               <div className="title_smartchain d-flex align-items-center gap-2">
                 <img
@@ -110,7 +110,7 @@ function Stasha_Ecosystem() {
             </div>
           </div>
 
-          <div className="col-lg-3 ecobxmnUpper">
+          <div className="col-lg-3 col-md-6 ecobxmnUpper">
             <div className="Smartchain_bx ">
               <div className="title_smartchain d-flex align-items-center gap-2">
                 <img
@@ -144,7 +144,7 @@ function Stasha_Ecosystem() {
                   className="smartIcon"
                   style={{ width: "10%" }}
                 />
-                <h3 className="titleMainTxt mb-0">Alterverse</h3>
+                <h3 className="titleMainTxt mb-0">Alterverse </h3>
               </div>
               <p className="smartDetail">
                 Alterverse is Stasha's art infrastructure which aims at bridging

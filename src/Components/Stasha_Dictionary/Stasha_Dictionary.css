@@ -49,3 +49,21 @@
         line-height: 20px !important;
     }
 }
+
+@media  only screen and (min-width:650px) and (max-width:800px){
+  .dictionary_h5{
+    font-family: "Fredoka";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px !important;
+    line-height: 54px;
+    color: #ffffff;
+  }
+  .diction_learn{
+
+    margin-top: 25px !important;
+  
+
+  }
+
+}

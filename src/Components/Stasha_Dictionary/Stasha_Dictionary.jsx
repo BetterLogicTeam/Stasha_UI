@@ -10,7 +10,7 @@ function Stasha_Dictionary() {
    <div className="container">
 
     <div className="row py-md-3 m-0 p-0 ">
-        <div className=" col-md-7 col-12 on_mobile  d-flex">
+        <div className=" col-lg-7 col-12 on_mobile  d-flex">
  
 
 <div className='text-center text-md-start'>
@@ -24,7 +24,7 @@ function Stasha_Dictionary() {
 
         </div>
 
-        <div className="  col-12 col-md-5  just_cap_btn col-md-5 d-flex text-center text-md-end justify-content-center  justify-content-md-end">
+        <div className="  col-12 col-lg-5  just_cap_btn col-md-5 d-flex text-center text-md-end justify-content-center  justify-content-md-end">
 
 <button className="acdmi_btn d-none d-md-block">View Dictionary </button>
 

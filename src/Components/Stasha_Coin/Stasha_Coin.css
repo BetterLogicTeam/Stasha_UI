@@ -100,4 +100,9 @@ background-clip: text;
     .respo_sixe{
         width: 100% !important;
     }
+
+    .coin_pahr{
+        font-size: 16px !important;
+    line-height: 31px !important;
+    }
   }

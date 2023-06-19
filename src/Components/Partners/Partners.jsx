@@ -24,7 +24,6 @@ export default function Partners() {
             <div className="row">
              <div className="col-6">
             <img className="mbl_size" src={yaho} alt="" />
-
              </div>
              <div className="col-6">
              <img className="mbl_size" src={market} alt="" />

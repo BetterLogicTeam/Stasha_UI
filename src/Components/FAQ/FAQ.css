@@ -206,4 +206,10 @@ details > summary:first-of-type {
   .accordion-button{
     font-size: 21px !important;
   }
+  .faq_main_heaing{
+
+    font-size: 30px;
+    line-height: 44px;
+
+  }
 }
