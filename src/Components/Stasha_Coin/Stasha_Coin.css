@@ -1,108 +1,99 @@
-.stasg_coin_bg{
-
-    background-color: #000000;
-    padding: 30px 20px;
+.stasg_coin_bg {
+  background-color: #000000;
+  padding: 30px 20px;
 }
-.stash_hh5{
+.stash_hh5 {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43px;
+  line-height: 54px;
+  text-align: center;
 
-    font-family: 'Fredoka';
-font-style: normal;
-font-weight: 600;
-font-size: 43px;
-line-height: 54px;
-text-align: center;
-
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.coin_pahr{
+.coin_pahr {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-
-color: #9C9C9C;
+  color: #9c9c9c;
 }
 
-.two_boxess{
-    margin-top: 4rem !important;
+.two_boxess {
+  margin-top: 4rem !important;
 }
 
-.boxxxxxxxs{
-    
-    width: 279px;
-height: 153px;
+.boxxxxxxxs {
+  width: 279px;
+  height: 153px;
 
-display: flex;
-justify-content: center;
-align-items: center;
-background: rgba(19, 19, 19, 0.5);
-border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(19, 19, 19, 0.5);
+  border-radius: 20px;
 }
-.boxxxxxxxs:hover{
-    border: 2px solid #00ACFF;
-
+.boxxxxxxxs:hover {
+  border: 2px solid #00acff;
 }
 
-.current{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-text-align: center;
-color: #FFFFFF;
+.current {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
 }
 
-.dollar{
+.dollar {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
 
-    font-family: 'Fredoka';
-font-style: normal;
-font-weight: 400;
-font-size: 45px;
-line-height: 54px;
-text-align: center;
-
-background: linear-gradient(180deg, #00ACFF 0%, #5061FF 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-/* text-fill-color: transparent; */
+  background: linear-gradient(180deg, #00acff 0%, #5061ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
 }
 
 @media only screen and (max-width: 600px) {
-   .boxxxxxxxs{
-
+  .boxxxxxxxs {
     width: 100%;
     flex-direction: column !important;
+  }
 
-   }
-
-   .stash_hh5 {
+  .stash_hh5 {
     font-size: 28px !important;
     text-align: center !important;
-   }
+  }
 
-   .coin_pahr {
+  .coin_pahr {
     font-size: 10px !important;
     text-align: center !important;
     margin-bottom: 10px !important;
-   }
-   .respo_sixe{
+  }
+  .respo_sixe {
     width: 66% !important;
-   }
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 850px) {
+  .respo_sixe {
+    width: 100% !important;
   }
 
-
-  @media only screen and (min-width:700px ) and (max-width:850px){
-    .respo_sixe{
-        width: 100% !important;
-    }
-
-    .coin_pahr{
-        font-size: 16px !important;
+  .coin_pahr {
+    font-size: 16px !important;
     line-height: 31px !important;
-    }
   }
+}

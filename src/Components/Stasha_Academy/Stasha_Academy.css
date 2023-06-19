@@ -1,129 +1,104 @@
-.accdmi_bbg{
-
-background-color: #00060A;
-padding: 30px 20px !important;
+.accdmi_bbg {
+  background-color: #00060a;
+  padding: 30px 20px !important;
 }
-.acdmi_btn{
+.acdmi_btn {
+  width: 258px;
+  height: 57px;
+  margin-top: 1 0px !important;
 
-    width: 258px;
-height: 57px;
-margin-top: 1   0px !important;
+  background: #00acff;
+  border: 1px solid rgba(0, 172, 255, 0.9);
+  border-radius: 12px;
 
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
 
-background: #00ACFF;
-border: 1px solid rgba(0, 172, 255, 0.9);
-border-radius: 12px;
+  text-align: center;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 26px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FFFFFF;
-
+  color: #ffffff;
 }
 
-.accdmi_h5{
-    font-family: 'Fredoka';
-font-style: normal;
-font-weight: 600;
-font-size: 43px;
-line-height: 54px;
+.accdmi_h5 {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43px;
+  line-height: 54px;
 
-
-color: #FFFFFF;
+  color: #ffffff;
 }
-.accdmi_pp{
-
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-color: #9C9C9C;
+.accdmi_pp {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #9c9c9c;
 }
 
-.lern_maore{
-    font-family: 'Roboto';
-    margin-top: -1rem  !important;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-text-decoration: none;
+.lern_maore {
+  font-family: "Roboto";
+  margin-top: -1rem !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
 
-color: rgba(0, 172, 255, 0.9);
-margin-bottom: 2rem !important;
+  color: rgba(0, 172, 255, 0.9);
+  margin-bottom: 2rem !important;
 }
 
-.lern_maore:hover{
-    color: rgba(0, 172, 255, 0.9) !important;
+.lern_maore:hover {
+  color: rgba(0, 172, 255, 0.9) !important;
 }
-
-
 
 @media only screen and (max-width: 600px) {
-   .on_mobile {
-
+  .on_mobile {
     flex-direction: column !important;
     display: flex;
     margin-top: 10px;
-    /* margin-left: 5px; */
     justify-content: center;
-   }
-   .lern_maore{
+  }
+  .lern_maore {
     margin-top: 1rem !important;
-    margin-bottom: 1rem  !important;
-   }
+    margin-bottom: 1rem !important;
+  }
 
-   .accdmi_h5 {
+  .accdmi_h5 {
     font-size: 28px !important;
-   }
-   .accdmi_pp{
+  }
+  .accdmi_pp {
     font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .just_cap_btn {
+    width: 100% !important;
+    margin-top: 15px !important;
+  }
 
+  .pahra_btuon {
+    margin-top: 15px;
+
+    width: 100% !important;
+  }
 }
 
+.line_thori {
+  border: 1px solid rgba(51, 51, 51, 0.7) !important;
+}
+
+@media only screen and (min-width: 650px) and (max-width: 800px) {
+  .accdmi_h5 {
+    font-size: 27px !important;
   }
-  @media only screen and (max-width : 768px){
-
-    .just_cap_btn{
-        width: 100% !important;
-        margin-top: 15px !important;
-
-
-    }
-
-    .pahra_btuon{
-        margin-top: 15px;
-
-        width: 100% !important;
-
-    }
-
-
-
-  }
-
-
-  .line_thori{
-    border: 1px solid rgba(51, 51, 51, 0.7) !important;
-  }
-
-
-
-
-  @media only screen and (min-width:650px) and (max-width:800px){
-    .accdmi_h5{
-        font-size: 27px !important;
-    }
-    .accdmi_pp{
-
-        font-size: 18px !important;
+  .accdmi_pp {
+    font-size: 18px !important;
     line-height: 30px !important;
-    }
   }
+}

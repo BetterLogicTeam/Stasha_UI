@@ -1,15 +1,15 @@
 .home_first_bg {
   background-color: #000000;
-  padding: 20px 20px  10px 20px!important;
+  padding: 20px 20px 10px 20px !important;
   position: relative;
 }
-.upppper_clr{
+.upppper_clr {
   background: rgba(0, 172, 255, 0.9);
-filter: blur(100px);
-position: absolute;
-width: 100px;
-height: 100px;
-top: 50px;
+  filter: blur(100px);
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50px;
 }
 
 .main_home_heading {
@@ -34,21 +34,19 @@ top: 50px;
   text-align: left;
 }
 
-.animmma{
+.animmma {
   margin-top: -5rem !important;
 }
 .ex_button {
   width: 258px;
   height: 57px;
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 26px;
-/* identical to box height */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
 
-
-color: #FFFFFF;
+  color: #ffffff;
 
   background: #00acff;
   border-radius: 12px;
@@ -56,90 +54,81 @@ color: #FFFFFF;
   border: none !important;
 }
 
+.get_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
 
-.get_text{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 26px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-width: 278px;
-height: 26px;
+  color: #ffffff;
+  width: 278px;
+  height: 26px;
 }
 
-
-.home_lwer_clr{
-  
-background: rgba(0, 172, 255, 0.9);
-filter: blur(100px);
-position: absolute;
-width: 134px;
-height: 134px;
-bottom: 0px ;
-right: 10px !important;
+.home_lwer_clr {
+  background: rgba(0, 172, 255, 0.9);
+  filter: blur(100px);
+  position: absolute;
+  width: 134px;
+  height: 134px;
+  bottom: 0px;
+  right: 10px !important;
 }
 
+@media only screen and (max-width: 600px) {
+  .ex_button {
+    width: 164px !important;
+    font-size: 14px !important;
+  }
+  .get_text {
+    width: 86% !important;
+    text-align: center;
+  }
 
+  .main_home_heading {
+    font-size: 20px !important;
+    line-height: 32px !important;
+    text-align: center;
+  }
 
-@media  only screen and (max-width:600px){
-    .ex_button{
-        width: 164px!important;
-        font-size: 14px !important;
-    }
-    .get_text{
-        width: 86% !important;
-        text-align: center;
-    }
+  .home_tet {
+    text-align: center !important;
+    line-height: 15px !important;
+    font-size: 13px !important;
+    padding-top: 10px !important ;
+  }
 
-    .main_home_heading {
-      font-size: 20px !important;
-      line-height: 32px !important;
-      text-align: center;
-    }
-
-    .home_tet{
-      text-align: center !important;
-      line-height: 15px !important;
-      font-size: 13px !important;
-      padding-top:10px !important ;
-    }
-
-
-    .animmma{
-      margin-top: 10px !important;
-    }
-    
+  .animmma {
+    margin-top: 10px !important;
+  }
 }
 
-@media only screen and (max-width:360px){
+@media only screen and (max-width: 360px) {
   .get_text {
     width: 100% !important;
   }
 }
 
-@media only screen and (min-width:650px) and (max-width:900px){
+@media only screen and (min-width: 650px) and (max-width: 900px) {
   .animmma {
     margin-top: -1rem !important;
-    
-}
+  }
 
-.home_first_bg{
-  padding-top: 2rem !important;
-}
+  .home_first_bg {
+    padding-top: 2rem !important;
+  }
 
-.ex_button {
-  font-size: 16px !important  ;
-}
-.get_text {
-  font-size: 17px !important;
-  width: 320px !important;
-}
+  .ex_button {
+    font-size: 16px !important  ;
+  }
+  .get_text {
+    font-size: 17px !important;
+    width: 320px !important;
+  }
 
-.main_home_heading {
+  .main_home_heading {
     font-family: "Fredoka";
     font-style: normal;
     font-weight: 600 !important;
@@ -147,11 +136,11 @@ right: 10px !important;
     line-height: 39px !important;
     text-align: left;
     color: #ffffff !important;
-}
-.home_tet{
-  line-height: 25px !important;
-  font-size: 16px !important;
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
-}
+  }
+  .home_tet {
+    line-height: 25px !important;
+    font-size: 16px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
 }

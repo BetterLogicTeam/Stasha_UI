@@ -1,58 +1,51 @@
-.main_partner_bg{
-    background-color: #000000 !important;
-    padding: 30px 20px !important;
+.main_partner_bg {
+  background-color: #000000 !important;
+  padding: 30px 20px !important;
 }
 
-.partners_box{
-    background: rgba(51, 51, 51, 0.23) !important;
-border-radius: 30px !important;
+.partners_box {
+  background: rgba(51, 51, 51, 0.23) !important;
+  border-radius: 30px !important;
 
-padding: 20px !important;
+  padding: 20px !important;
 }
 
-.partners_heading{
-    font-family: "Fredoka", sans-serif !important;
-font-style: normal;
-font-weight: 600;
-font-size: 43px;
-line-height: 54px;
-text-align: center;
+.partners_heading {
+  font-family: "Fredoka", sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43px;
+  line-height: 54px;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-
-.partners_logi{
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center;
-    gap: 3.5rem !important;
-    margin-top: 10px !important;
+.partners_logi {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  gap: 3.5rem !important;
+  margin-top: 10px !important;
 }
 
+@media only screen and (max-width: 600px) {
+  .partners_logi {
+    flex-direction: column !important ;
+    display: none !important;
+  }
 
+  .partners_heading {
+    font-size: 28px !important;
+  }
 
-@media only screen and (max-width:600px){
-    .partners_logi{
-        flex-direction:column !important ;
-        display: none !important;
-    }
-
-    .partners_heading{
-        font-size: 28px !important;
-    }
-
-    .mbl_size{
-        width: 115px !important;
-    }
-
-   
+  .mbl_size {
+    width: 115px !important;
+  }
 }
 
-
-
-@media only screen and (min-width:650px) and  (max-width:850px){
-    .partners_logi {
-        gap: 0.5rem !important;
-    }
+@media only screen and (min-width: 650px) and (max-width: 850px) {
+  .partners_logi {
+    gap: 0.5rem !important;
+  }
 }

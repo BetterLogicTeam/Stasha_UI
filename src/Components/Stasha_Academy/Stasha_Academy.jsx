@@ -9,12 +9,11 @@ function Stasha_Academy() {
         <div className="row align-items  ">
           <div className="col-12  text-center text-md-start col-md-4 just_cap_btn  ">
             <button className="acdmi_btn d-none d-md-block ">Get Start </button>
-         
+
             <div className="text-center d-block d-md-none">
               <img src={cap} className="" alt="img" />
             </div>
 
-            
             <div className="d-block  d-md-none">
               <h5 className="accdmi_h5 text-center text-md-end ">
                 {" "}
@@ -52,12 +51,10 @@ function Stasha_Academy() {
             Learn More{" "}
           </p>
           <div className="d-flex justify-content-center mb-5">
-
-          <button className="acdmi_btn d-block d-md-none ">Get Start </button>
+            <button className="acdmi_btn d-block d-md-none ">Get Start </button>
           </div>
-
         </div>
-      <div className="line_thori"></div>
+        <div className="line_thori"></div>
       </div>
     </div>
   );

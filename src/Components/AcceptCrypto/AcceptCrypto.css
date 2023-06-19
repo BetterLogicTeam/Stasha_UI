@@ -41,7 +41,6 @@ color: #FFFFFF;
     text-align: center;
     text-decoration: none !important;
     color: #00ACFF;
-    /* margin-top: 3rem !important; */
 }
 
 
@@ -73,7 +72,6 @@ color: #FFFFFF;
 @media only screen and (min-width:700px ) and (max-width:850px){
     .respo{
         width: 100% !important;
-        /* margin-top: 30px !important; */
     }
     .accept_h4 {
         font-family: "Fredoka", sans-serif;

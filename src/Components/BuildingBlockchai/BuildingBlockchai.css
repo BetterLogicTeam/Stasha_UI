@@ -47,7 +47,6 @@
   font-weight: 500;
   font-size: 22px;
   line-height: 26px;
-  /* identical to box height */
 
   text-align: center;
 
@@ -60,26 +59,20 @@
   border-radius: 12px;
 }
 
-
-@media only screen and (max-width:600px){
-  .building_block_heading > h1{
+@media only screen and (max-width: 600px) {
+  .building_block_heading > h1 {
     font-size: 25px !important;
     line-height: 29px !important;
   }
 
-  .building_block_heading > p{
-  font-size: 10px !important;
-  line-height: 15px !important;
+  .building_block_heading > p {
+    font-size: 10px !important;
+    line-height: 15px !important;
   }
-} 
-
-
-
-
-
-@media only screen and (min-width:650px) and (max-width:850px){
-  
-.building_block_heading > p{
-  font-size:16px ;
 }
+
+@media only screen and (min-width: 650px) and (max-width: 850px) {
+  .building_block_heading > p {
+    font-size: 16px;
+  }
 }

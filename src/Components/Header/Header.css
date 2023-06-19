@@ -1,58 +1,49 @@
-.main_bg{
-    background-color: #000000;
-    padding: 20px !important;
+.main_bg {
+  background-color: #000000;
+  padding: 20px !important;
 }
 
-.header_text{
-    font-family: 'Fredoka';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 48px;
+.header_text {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-
-.links_center{
-    margin-left: auto !important;
+.links_center {
+  margin-left: auto !important;
 }
 
+.header_links_clr {
+  font-family: "Roboto";
+  font-style: normal;
+  cursor: pointer !important;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
 
-.header_links_clr{
-    font-family: 'Roboto';
-font-style: normal;
-cursor: pointer !important;
-font-weight: 500;
-font-size: 22px;
-line-height: 26px;
-/* identical to box height */
-
-
-color: #FFFFFF !important;
-margin:0px 20px !important;
+  color: #ffffff !important;
+  margin: 0px 20px !important;
 }
 
-
-.header_links_clr:hover{
-    cursor: pointer !important;
+.header_links_clr:hover {
+  cursor: pointer !important;
 }
 
-
-
-
-@media only screen and (max-width:600px){
-    .links_center{
-        margin-left: 0px !important;
-        text-align: center !important;
-    }
+@media only screen and (max-width: 600px) {
+  .links_center {
+    margin-left: 0px !important;
+    text-align: center !important;
+  }
 }
 
-@media only screen and (min-width:650px) and (max-width:900px){
-    .links_center{
-        margin-left: 0px !important;
-        text-align: center !important;
-        margin-bottom: 1.5rem !important  ;
-    } 
-  
+@media only screen and (min-width: 650px) and (max-width: 900px) {
+  .links_center {
+    margin-left: 0px !important;
+    text-align: center !important;
+    margin-bottom: 1.5rem !important  ;
+  }
 }

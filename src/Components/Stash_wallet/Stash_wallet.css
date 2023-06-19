@@ -4,34 +4,32 @@
   position: relative;
 }
 
-.cluee{
-    background: rgba(0, 172, 255, 0.35) !important;
-    width: 351px;
-height: 200px;
-position: absolute !important;
-top: 10px;
-filter: blur(100px) !important;
+.cluee {
+  background: rgba(0, 172, 255, 0.35) !important;
+  width: 351px;
+  height: 200px;
+  position: absolute !important;
+  top: 10px;
+  filter: blur(100px) !important;
 }
 
-
-
-.clueee{
-    background: rgba(0, 172, 255, 0.35) !important;
-    width: 300px;
-height: 300px;
-top: 10px;
-position: absolute;
-left:30%;
-filter:  blur(100px) !important; 
+.clueee {
+  background: rgba(0, 172, 255, 0.35) !important;
+  width: 300px;
+  height: 300px;
+  top: 10px;
+  position: absolute;
+  left: 30%;
+  filter: blur(100px) !important;
 }
-.clueeee{
-    background: rgba(0, 172, 255, 0.35) !important;
-    width: 300px;
-height: 300px;
-top: -20px;
-position: absolute;
-left:50%;
-filter:  blur(100px) !important; 
+.clueeee {
+  background: rgba(0, 172, 255, 0.35) !important;
+  width: 300px;
+  height: 300px;
+  top: -20px;
+  position: absolute;
+  left: 50%;
+  filter: blur(100px) !important;
 }
 
 .waleet_ppara {
@@ -116,15 +114,15 @@ filter:  blur(100px) !important;
   color: #ffffff;
 }
 
-
-.bakk{
-
-  background: linear-gradient(270deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 172, 255, 0.135) 100%);
+.bakk {
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0.15) 0%,
+    rgba(0, 172, 255, 0.135) 100%
+  );
   border-radius: 45px;
   padding: 20px 15px !important;
 }
-
-
 
 @media only screen and (max-width: 600px) {
   .iphone {
@@ -150,8 +148,7 @@ filter:  blur(100px) !important;
     position: static !important;
   }
 
-
-  .mbl_i{
+  .mbl_i {
     position: relative !important;
     bottom: -20px !important;
   }
@@ -164,18 +161,15 @@ filter:  blur(100px) !important;
     font-size: 10px !important;
   }
 
-
-  .cluee{
+  .cluee {
     width: 288px !important;
-
   }
-  .clueee{
+  .clueee {
     display: none !important;
   }
-  .clueeee{
+  .clueeee {
     display: none !important;
   }
-
 }
 
 @media only screen and (min-width: 650px) and (max-width: 800px) {
@@ -195,23 +189,18 @@ filter:  blur(100px) !important;
     color: #ffffff !important;
   }
 
-  .lgrre{
+  .lgrre {
     right: 0px !important;
   }
-  .ggog{
+  .ggog {
     width: 174px !important;
     height: 64px !important;
   }
-
-
-
 }
 
-
-
-@media only screen and (max-width:350px){
+@media only screen and (max-width: 350px) {
   .join_us {
-    .join_us{
+    .join_us {
       padding: 30px 12px !important;
     }
   }

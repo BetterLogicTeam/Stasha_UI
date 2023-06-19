@@ -58,7 +58,6 @@
   font-weight: 500;
   font-size: 22px;
   line-height: 26px;
-  /* identical to box height */
 
   text-align: center;
 
@@ -112,7 +111,7 @@ details > summary:first-of-type {
   font-weight: 550 !important;
   font-size: 24px;
   line-height: 29px;
-  z-index: 1  ;
+  z-index: 1;
 
   padding: 22px 0px !important;
   color: #ffffff;
@@ -136,7 +135,7 @@ details > summary:first-of-type {
   position: absolute;
   width: 251px;
   height: 235px;
-  
+
   bottom: 0px !important;
   right: 10px !important;
 }
@@ -168,11 +167,8 @@ details > summary:first-of-type {
     margin: 20px 0px !important;
   }
   .accordion-button {
-  font-size: 16px !important;  
+    font-size: 13px !important;
   }
-  /* .lower_clr{
-    display: none;
-  } */
 
   .upper_clr {
     background: rgba(46, 200, 210, 0.36);
@@ -200,16 +196,12 @@ details > summary:first-of-type {
   }
 }
 
-
-
-@media only screen and (min-width:650px) and (max-width:800px){
-  .accordion-button{
+@media only screen and (min-width: 650px) and (max-width: 800px) {
+  .accordion-button {
     font-size: 21px !important;
   }
-  .faq_main_heaing{
-
+  .faq_main_heaing {
     font-size: 30px;
     line-height: 44px;
-
   }
 }

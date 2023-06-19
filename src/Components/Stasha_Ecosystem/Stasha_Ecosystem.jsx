@@ -13,7 +13,7 @@ import { BsGooglePlay } from "react-icons/bs";
 import { BsApple } from "react-icons/bs";
 import { AiFillChrome } from "react-icons/ai";
 import Accordion from "react-bootstrap/Accordion";
-import mba from "../Assets/mba.png"
+import mba from "../Assets/mba.png";
 
 function Stasha_Ecosystem() {
   return (
@@ -245,151 +245,127 @@ function Stasha_Ecosystem() {
         </div>
 
         <div className="mobli d-block mt-2 d-md-none">
+          <div className="mbl_view mt-4 d-flex justify-content-between">
+            <div className="title_smartchain d-flex align-items-center gap-3">
+              <img
+                src={smartEco_1}
+                alt="#"
+                className="smartIcon"
+                style={{ width: "10%" }}
+              />
+              <h3 className="titleMainTxt mb-0">Stasha Smartchain</h3>
+            </div>
+            <div>
+              <img src={mba} alt="" />
+            </div>
+          </div>
 
-        <div className="mbl_view mt-4 d-flex justify-content-between">
-        <div className="title_smartchain d-flex align-items-center gap-3">
-                <img
-                  src={smartEco_1}
-                  alt="#"
-                  className="smartIcon"
-                  style={{ width: "10%" }}
-                />
-                <h3 className="titleMainTxt mb-0">Stasha Smartchain</h3>
-              </div>
-              <div>
-                <img src={mba} alt="" />
-              </div>
+          <div className="mbl_view mt-4 d-flex justify-content-between">
+            <div className="title_smartchain d-flex align-items-center gap-3">
+              <img
+                src={smartEco_2}
+                alt="#"
+                className="smartIcon"
+                style={{ width: "10%" }}
+              />
+              <h3 className="titleMainTxt mb-0">Stasha Exchanges</h3>
+            </div>
+            <div>
+              <img src={mba} alt="" />
+            </div>
+          </div>
 
-        </div>
+          <div className="mbl_view mt-4 d-flex justify-content-between">
+            <div className="title_smartchain d-flex align-items-center gap-3">
+              <img
+                src={smartEco_3}
+                alt="#"
+                className="smartIcon"
+                style={{ width: "10%" }}
+              />
+              <h3 className="titleMainTxt mb-0">Stasha Block Explorer</h3>
+            </div>
+            <div>
+              <img src={mba} alt="" />
+            </div>
+          </div>
 
+          <div className="mbl_view mt-4 d-flex justify-content-between">
+            <div className="title_smartchain d-flex align-items-center gap-4">
+              <img
+                src={smartEco_4}
+                alt="#"
+                className="smartIcon"
+                style={{ width: "10%" }}
+              />
+              <h3 className="titleMainTxt mb-0">Stasha Wallet</h3>
+            </div>
+            <div>
+              <img src={mba} alt="" />
+            </div>
+          </div>
 
+          <div className="mbl_view mt-4 d-flex justify-content-between">
+            <div className="title_smartchain d-flex align-items-center gap-4">
+              <img
+                src={smartEco_5}
+                alt="#"
+                className="smartIcon"
+                style={{ width: "10%" }}
+              />
+              <h3 className="titleMainTxt mb-0">Alterverse</h3>
+            </div>
+            <div>
+              <img src={mba} alt="" />
+            </div>
+          </div>
 
-       
+          <div className="mbl_view mt-4 d-flex justify-content-between">
+            <div className="title_smartchain d-flex align-items-center gap-3">
+              <img
+                src={smartEco_6}
+                alt="#"
+                className="smartIcon"
+                style={{ width: "10%" }}
+              />
+              <h3 className="titleMainTxt mb-0">NFT Marketplace</h3>
+            </div>
+            <div>
+              <img src={mba} alt="" />
+            </div>
+          </div>
 
+          <div className="mbl_view mt-4 d-flex justify-content-between">
+            <div className="title_smartchain d-flex align-items-center gap-3">
+              <img
+                src={smartEco_7}
+                alt="#"
+                className="smartIcon"
+                style={{ width: "10%" }}
+              />
+              <h3 className="titleMainTxt mb-0">Staking Platform</h3>
+            </div>
+            <div>
+              <img src={mba} alt="" />
+            </div>
+          </div>
 
+          <div className="mbl_view mt-4 d-flex justify-content-between">
+            <div className="title_smartchain d-flex align-items-center gap-3">
+              <img
+                src={smartEco_8}
+                alt="#"
+                className="smartIcon"
+                style={{ width: "10%" }}
+              />
+              <h3 className="titleMainTxt mb-0">Multi-sig Wallet</h3>
+            </div>
+            <div>
+              <img src={mba} alt="" />
+            </div>
+          </div>
 
-       
-
-
-        <div className="mbl_view mt-4 d-flex justify-content-between">
-        <div className="title_smartchain d-flex align-items-center gap-3">
-                  <img
-                    src={smartEco_2}
-                    alt="#"
-                    className="smartIcon"
-                    style={{ width: "10%" }}
-                  />
-                  <h3 className="titleMainTxt mb-0">Stasha Exchanges</h3>
-                </div>
-              <div>
-                <img src={mba} alt="" />
-              </div>
-
-        </div>
-
-
-        <div className="mbl_view mt-4 d-flex justify-content-between">
-         <div className="title_smartchain d-flex align-items-center gap-3">
-                  <img
-                    src={smartEco_3}
-                    alt="#"
-                    className="smartIcon"
-                    style={{ width: "10%" }}
-                  />
-                  <h3 className="titleMainTxt mb-0">Stasha Block Explorer</h3>
-                </div>
-              <div>
-                <img src={mba} alt="" />
-              </div>
-
-        </div>
-
-
-
-        <div className="mbl_view mt-4 d-flex justify-content-between">
-     <div className="title_smartchain d-flex align-items-center gap-4">
-                  <img
-                    src={smartEco_4}
-                    alt="#"
-                    className="smartIcon"
-                    style={{ width: "10%" }}
-                  />
-                  <h3 className="titleMainTxt mb-0">Stasha Wallet</h3>
-                </div>
-              <div>
-                <img src={mba} alt="" />
-              </div>
-
-        </div>
-
-
-        <div className="mbl_view mt-4 d-flex justify-content-between">
-        <div className="title_smartchain d-flex align-items-center gap-4">
-                  <img
-                    src={smartEco_5}
-                    alt="#"
-                    className="smartIcon"
-                    style={{ width: "10%" }}
-                  />
-                  <h3 className="titleMainTxt mb-0">Alterverse</h3>
-                </div>
-              <div>
-                <img src={mba} alt="" />
-              </div>
-
-        </div>
-
-
-        <div className="mbl_view mt-4 d-flex justify-content-between">
-        <div className="title_smartchain d-flex align-items-center gap-3">
-                <img
-                  src={smartEco_6}
-                  alt="#"
-                  className="smartIcon"
-                  style={{ width: "10%" }}
-                />
-                <h3 className="titleMainTxt mb-0">NFT Marketplace</h3>
-              </div>
-              <div>
-                <img src={mba} alt="" />
-              </div>
-
-        </div>
-
-        <div className="mbl_view mt-4 d-flex justify-content-between">
-        <div className="title_smartchain d-flex align-items-center gap-3">
-                  <img
-                    src={smartEco_7}
-                    alt="#"
-                    className="smartIcon"
-                    style={{ width: "10%" }}
-                  />
-                  <h3 className="titleMainTxt mb-0">Staking Platform</h3>
-                </div>
-              <div>
-                <img src={mba} alt="" />
-              </div>
-
-        </div>
-
-        <div className="mbl_view mt-4 d-flex justify-content-between">
-        <div className="title_smartchain d-flex align-items-center gap-3">
-                <img
-                  src={smartEco_8}
-                  alt="#"
-                  className="smartIcon"
-                  style={{ width: "10%" }}
-                />
-                <h3 className="titleMainTxt mb-0">Multi-sig Wallet</h3>
-              </div>
-              <div>
-                <img src={mba} alt="" />
-              </div>
-
-        </div>
-
-
-        {/* <div className="mbl_view d-flex justify-content-between">
+          {/* <div className="mbl_view d-flex justify-content-between">
         <div className="title_smartchain d-flex align-items-center gap-2">
                   <img
                     src={smartEco_1}
