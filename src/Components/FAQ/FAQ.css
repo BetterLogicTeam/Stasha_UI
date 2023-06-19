@@ -199,3 +199,11 @@ details > summary:first-of-type {
     text-align: center !important;
   }
 }
+
+
+
+@media only screen and (min-width:650px) and (max-width:800px){
+  .accordion-button{
+    font-size: 21px !important;
+  }
+}

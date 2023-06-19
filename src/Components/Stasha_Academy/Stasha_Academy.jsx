@@ -13,6 +13,8 @@ function Stasha_Academy() {
             <div className="text-center d-block d-md-none">
               <img src={cap} className="" alt="img" />
             </div>
+
+            
             <div className="d-block  d-md-none">
               <h5 className="accdmi_h5 text-center text-md-end ">
                 {" "}
