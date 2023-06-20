@@ -365,6 +365,8 @@ function Stasha_Ecosystem() {
             </div>
           </div>
 
+          {/* accoedion part of the ecosystem in which according open when we click on it  */}
+
           {/* <div className="mbl_view d-flex justify-content-between">
         <div className="title_smartchain d-flex align-items-center gap-2">
                   <img

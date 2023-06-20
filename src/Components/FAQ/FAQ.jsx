@@ -8,6 +8,8 @@ export default function FAQ() {
       <div className="container">
         <div className="upper_clr"></div>
         <div className="row">
+
+        {/* heading side of the faq page  */}
           <div className="col-md-5">
             <h1 className="faq_main_heaing">
               Frequently Asked <br />
@@ -20,6 +22,10 @@ export default function FAQ() {
               <button className="questionn_btn">Ask Us</button> </div>
             </div>
           </div>
+
+
+{/* Accordion side of the page is here  */}
+
           <div className="col-md-7">
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="20">
@@ -156,6 +162,7 @@ export default function FAQ() {
               </Accordion.Item>
             </Accordion>
           </div>
+          
           <div className="lower_clr"></div>
         </div>
       </div>

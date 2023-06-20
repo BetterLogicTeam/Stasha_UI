@@ -32,6 +32,8 @@ export default function Footer_main() {
             </div>
           </div>
 
+          {/* footers different links are here  */}
+
           <div className="col-md-2 col-6 mt-3 mt-md-0 text-start">
             <h5 className="footer_links_header">Products</h5>
             <a href="#" className="deco"><p className="main_footer_links">Stasha Smartchain</p></a>
@@ -67,6 +69,8 @@ export default function Footer_main() {
             </div>
           </div>
         </div>
+
+        {/* copyright  section of the footer  */}
 
         <div className="copy_right">
           <p className="mb-0">© 2022 Copyright and rights reserved</p>

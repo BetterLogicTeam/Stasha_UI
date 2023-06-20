@@ -10,6 +10,7 @@ export default function Partners() {
   return (
     <div className="main_partner_bg" id="Partner">
       <div className="container">
+      {/* partners heading  */}
         <div className="partners_box">
           <h1 className="partners_heading">Official Partners</h1>
           <div className=" d-none d-flex justify-content-center partners_logi">
@@ -19,7 +20,7 @@ export default function Partners() {
             <img className="mbl_size" src={tech} alt="" />
             <img className="mbl_size" src={nas} alt="" />
           </div>
-
+ {/* images of the partners logoo  */}
           <div className="container d-block d-md-none">
             <div className="row">
               <div className="col-6">
@@ -43,6 +44,8 @@ export default function Partners() {
               </div>
             </div>
           </div>
+
+          
         </div>
       </div>
     </div>

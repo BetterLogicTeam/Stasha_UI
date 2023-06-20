@@ -58,9 +58,7 @@
 .iphone {
   position: absolute;
   left: 50px !important;
-  /* width: 299px; */
   top: -86px !important;
-  /* height: 388px; */
 }
 
 .lgrre {
@@ -98,7 +96,6 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  /* identical to box height */
 
   color: #ffffff;
 }
@@ -135,7 +132,6 @@
 
   .ggog {
     width: 150px;
-    /* height: 50px; */
   }
 
   .gg_ply {

@@ -8,6 +8,7 @@ export default function Home_first() {
       <div className="home_lwer_clr"></div>
       <div className="container">
         <div className="row ">
+        {/* home main left side heading  */}
           <div className="col-md-7">
             <h1 className="main_home_heading mb-0">
               Unleashing the power of blockchain for a better tomorrow.
@@ -24,6 +25,8 @@ export default function Home_first() {
               </h6>
             </div>
           </div>
+
+          {/* gif of the home page   */}
           <div className="col-md-5">
             <img src={home_img}  className="w-100   animmma" alt="" />
             <div className="home_buttos d-block d-md-none  d-flex gap-3 align-items-center  flex-column flex-md-row">

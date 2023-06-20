@@ -6,6 +6,7 @@ export default function Newsletter() {
     <div className="newsletter_main_bg">
       <div className="container">
         <div className="row justify-content-center">
+
           <h1 className="newsletter_heading">Subscribe to our Newsletter</h1>
           <p className="news_par">
             Stay up to date for the latest crypto news, courses & more!

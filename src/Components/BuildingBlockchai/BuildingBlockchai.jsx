@@ -6,6 +6,9 @@ export default function BuildingBlockchai() {
   return (
     <div className='BuildingBlockchai_main_bg'>
     <div className="container">
+
+
+     {/* first heading and paragraph */}
     <div className="building_block_heading">
 
         <h1>Building Blockchain Infrastructures</h1>
@@ -17,6 +20,8 @@ export default function BuildingBlockchai() {
 </div>
    
     </div> 
+
+    {/* start building button  */}
     <div className='text-center'>
    <button className='start_build  mt-4 mt-md-2'>Start Building</button>
    </div>

@@ -8,6 +8,7 @@ function AcceptCrypto() {
     <div className=" accept_main_bg">
       <div className="container">
         <div className="row p-3 accept_bg   p-0 mx-0">
+        {/* text side of the page  */}
           <div className="col-12 col-md-6">
             <h5 className="accept_h4">
               Accept crypto payments <br /> globally with StashaPay
@@ -25,6 +26,8 @@ function AcceptCrypto() {
               Get Started <BiRightArrowAlt />{" "}
             </p>
           </div>
+
+          {/* image of the page  */}
           <div className="col-12 col-md-6 ">
             <img src={screen} className="respo" alt="img" />
           </div>
